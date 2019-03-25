@@ -1,8 +1,185 @@
 <HTML>
 <HEAD>
-	
+	<TITLE>The Periodic Table of Elements</TITLE>
 </HEAD>
-<BODY style="background: url(../../resources/universebackground.jpg); background-size: cover" >
+<STYLE>
+	H1 {
+		color: white;
+		text-align: center;
+		font-family: Arial Black, Gadget, sans-serif;
+		text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	}
+
+	.entireTable{
+		display: grid;
+		grid-template-rows: repeat(auto, 1fr);
+		height: 100vh;
+	}
+
+
+	.periodRow{
+		display: grid;
+		grid-template-columns: repeat(18, 1fr);
+		grid-column-gap: 1px;
+		
+	}
+
+	.element {
+		border-style: solid;
+		border-color: transparent;
+		color: black;
+		position: relative;
+		margin: 2px;
+		box-sizing: border-box;
+		width: 6vw;
+		
+	}
+	.symbol {
+		font-size: 3vw;
+		font-weight: bold;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+}
+	.atomicNumber {
+		font-size: 1vw;
+		float: left;
+		margin: 0;
+		position: absolute; 
+		bottom: 0;
+	}
+	.atomicWeight {
+		font-size: 1vw;
+		float: right;
+	}
+
+	/*============== Groups ==============*/
+
+	.AlkaliMetals{
+		background-color: #ffff66;
+	}
+
+	.AlkalineEarthMetals{
+		background-color: #b5a665;
+	}
+
+	.Lanthanides {
+
+	}
+
+	.Actinides{
+
+	}
+
+	.TransitionMetals{
+		background-color: #7bbc67;
+	}
+
+	.UnknownProperties{
+
+	}
+
+	.PostTransitionMetals{
+		background-color: #c6c6c6;
+	}
+
+	.Metalloids{
+		background-color: #eda1d6;
+	}
+
+	.OtherNonMetals{
+		background-color: #99ebff;
+	}
 	
+	.Halogens{
+
+	}
+
+	.NobleGases{
+		background-color: #e5871b;
+	}
+
+
+</STYLE>
+<BODY style="background: url(https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/Images/universebackground.jpg?raw=true); background-size: cover" >
+	<H1>The Periodic Table of Elements</H1>
+<div class="entireTable">
+	<div class="periodRow" id="row1">
+		<div class="element OtherNonMetals">
+			<div class="atomicNumber">1</div>
+			<div class="atomicWeight">1.008</div>
+			<div class="symbol">H</div>
+		</div>
+		<div class="element NobleGases" style="grid-column-start: 17">
+			<div class="atomicNumber">2</div>
+			<div class="atomicWeight">4.0026</div>
+			<div class="symbol">He</div>
+		</div>
+	</div>
+	<div class="periodRow" id="row2">
+		<div class="element AlkaliMetals">
+			<div class="atomicNumber">3</div>
+			<div class="atomicWeight">6.938</div>
+			<div class="symbol">Li</div>
+		</div>
+		<div class="element AlkalineEarthMetals">
+			<div class="atomicNumber">4</div>
+			<div class="atomicWeight">9.0122</div>
+			<div class="symbol">Be</div>
+		</div>
+		<div class="element Metalloids" style="grid-column-start: 12">
+			<div class="atomicNumber">5</div>
+			<div class="atomicWeight">10.806</div>
+			<div class="symbol">B</div>
+		</div>		
+	</div>
+	<div class="periodRow" id="row3">
+		<div class="element AlkaliMetals">
+			<div class="atomicNumber">11</div>
+			<div class="atomicWeight">22.990</div>
+			<div class="symbol">Na</div>
+		</div>
+		<div class="element AlkalineEarthMetals">
+			<div class="atomicNumber">12</div>
+			<div class="atomicWeight">24.305</div>
+			<div class="symbol">Mg</div>
+		</div>
+		<div class="element PostTransitionMetals" style="grid-column-start: 12">
+			<div class="atomicNumber">13</div>
+			<div class="atomicWeight">26.982</div>
+			<div class="symbol">Al</div>
+		</div>		
+	</div>
+		<div class="periodRow" id="row4">
+		<div class="element AlkaliMetals">
+			<div class="atomicNumber">19</div>
+			<div class="atomicWeight">39.098</div>
+			<div class="symbol">K</div>
+		</div>
+		<div class="element AlkalineEarthMetals">
+			<div class="atomicNumber">20</div>
+			<div class="atomicWeight">40.078</div>
+			<div class="symbol">Ca</div>
+		</div>
+		<div class="element TransitionMetals">
+			<div class="atomicNumber">21</div>
+			<div class="atomicWeight">44.956</div>
+			<div class="symbol">Sc</div>
+		</div>
+		<div class="element TransitionMetals">
+			<div class="atomicNumber">22</div>
+			<div class="atomicWeight">47.867</div>
+			<div class="symbol">Ti</div>
+		</div>
+	</div>
+</div>
 </BODY>
 </HTML>
