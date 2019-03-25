@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#MacJunk
+.DS_Store
+._.DS_Store
+._*
+*.swp
+
+#SchoolJunk
+.nfs.*
