@@ -1,15 +1,47 @@
 .content{
 	text-align: center;
+	width: 80vw;
+	margin: auto;
 }
 
 .rectangle{
 	background-color: #909090;
 	border-radius: 25px;
 	box-shadow: 10px 10px 10px;
-	height: 100px;
-	width: 70vw;
+	position: relative;
+}
+
+#bottom{
+	margin: auto;
+	margin-top: 2vh;
+	margin-left: 18vw;
+	display: flex;
+	justify-content: space-between;
 }
 
 #header{
 	margin: auto;
+	width: 70vw;
+	height: 100px;
+}
+
+#actions{
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	width: 15vw;
+	flex: 1;
+	margin-right: 25px;
+}
+
+#lab{
+	width: 25vw;
+	height: 50vh;
+	flex: 2;
+}
+
+
+#inventory{
+	flex: 3;
+	width: 5vw; 
+	margin-left: 25px;
 }
