@@ -20,4 +20,5 @@ Ex05 is Ex02 but built out into a full game. Try to think of how to make your cl
 ![ex02](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/Ex02.png?raw=true)
 
 #### Ex03: 
+It can shrink!
 ![ex03](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/Ex03Shrink.png?raw=true)
