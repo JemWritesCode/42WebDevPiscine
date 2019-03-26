@@ -12,7 +12,7 @@ Covers HTML, CSS, ...
 #### Ex01:
 Ex03 is Ex01 but responsive, so just go ahead and make ex01 responsive and save yourself some time. 
 
-I used a [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and a class for .element .symbol .atomicWeight and .atomicNumber
+I used a [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and a class for .element .symbol .atomicWeight and .atomicNumber. I tweaked a spreadsheet from my friend which generated the code for each element using a formula that read the element's info. This speeded things up considerably.
 ![ex01](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/Ex01.png?raw=true)
 
 #### Ex02: 
