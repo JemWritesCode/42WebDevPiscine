@@ -5,26 +5,32 @@
 <BODY style="background-color: #505050">
 	<div class="content">
 		<div class="rectangle" id="header">
-			<img src="./resources/day_of_the_42.png" height="100px" style="position: absolute; left: 25px; ">
-			<img src="./resources/reload.png" height="20px" style="position: absolute; top: 10px; right: 15px">
-			<img src="./resources/close.gif" style="position: absolute; top: 70px; right: 15px">
+			<img src="./resources/day_of_the_42.png" height="150px" style="position: absolute; left: 25px;">
+			<a href="http://www.disney.com"><img src="./resources/reload.png" height="20px" style="position: absolute; top: 10px; right: 15px"></a>
+			<a href="http://www.relaischateaux.com"><img src="./resources/close.gif" style="position: absolute; bottom: 15px; right: 15px"></a>
+			<img src="./resources/loupe.png" style="position: absolute; right: 35px; top: 20px;">
 		</div>
 		<div id="bottom">
-			<div class="rectangle" id="actions">
-				<img src="./resources/arrow.png" title="Advance" width="50%" height="20%"><br/>
-				<img src="./resources/main.png" title="Take" width="50%" height="20%"><br/>
-				<img src="./resources/oeil.png" title="Look" width="50%" height="20%"><br/>
-				<img src="./resources/outil.png" title="Use" width="50%" height="20%"><br/>
-				<img src="./resources/chat-icon.png" title="Speak" width="50%" height="20%">
+			<div class="rectangle sidebar" id="actionbar">
+				<img class = "actions" src="./resources/arrow.png" title="Advance"><br/>
+				<img class = "actions" src="./resources/main.png" title="Take"><br/>
+				<img class = "actions selected" src="./resources/oeil.png" title="Look"><br/>
+				<img class = "actions" src="./resources/outil.png" title="Use"><br/>
+				<img class = "actions" src="./resources/chat-icon.png" title="Speak">
 			</div>
 			<div class="rectangle" id="lab">
-				<img src="./resources/cluster.jpg" width="90%" height="95%" style="position: absolute; top: 15px; left: 25px;">
+				<img src="./resources/cluster.jpg" id="clusterimg" title="cluster">
 			</div>
-			<div class="rectangle" id="inventory">
-				<img src="./resources/book.png" title="Book" width="30%" height="33%"><br/>
-				<img src="./resources/towel.png" title="Towel" width="30%" height="20%"><br/>
-				<img src="./resources/brick.jpg" title="Brick" width="50%" height="33%">				
+			<div class="rectangle sidebar" id="inventory">
+				<img src="./resources/book.png" title="Book" width="85px" height="125px"><br/>
+				<img src="./resources/towel.png" title="Towel" width="75px" height="75px">
+				<div id="brick" title="Brick"></div>		
 			</div>
+		</div>
+		<div class="rectangle floatingGreen" id="floatingGreen">
+			Vous <span style="font-size: 30pt; font-family: serif;">entrez</span> alors dans une grande piece remplie <br/>d'<span style="text-shadow: 4px 4px 4px #FF0000">ordinateurs...</span><br/>
+			<span style="font-style: italic;">- Bonjour, vous &#234;tes nouveau ici ?</span><br/>
+			<input type="text" name="Response" size="70"><input type="submit" value="Repondre"></button>
 		</div>
 	</div>
 </BODY>

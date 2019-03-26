@@ -1,45 +1,94 @@
 .content{
 	text-align: center;
-	width: 80vw;
+	width: 1800px;
 	margin: auto;
+	position: relative;
+	z-index: 0;
 }
 
 .rectangle{
 	background-color: #909090;
 	border-radius: 25px;
 	box-shadow: 10px 10px 10px;
-	position: relative;
 }
 
-#bottom{
-	margin: auto;
-	width: 65vw;
-	height: 50vh;
-	margin-top: 2vh;
-	display: flex;
+.sidebar{
+	width: 175px;
+	height: 450px;
+}
+
+.selected{
+	border-style: solid;
+	border-color: red;
+	border-radius: 5px;
 }
 
 #header{
 	margin: auto;
-	width: 70vw;
-	height: 100px;
+	width: 1550px;
+	height: 150px;
+	position: relative;
 }
 
-#actions{
-	padding-top: 1vh;
-	padding-bottom: 1vh;
-	flex: 1;
-	width: 5vw;
+#bottom{
+	display: inline-block;
+	margin-top: 25px;
+	width: 1600px;
+}
+
+.actions{
+	height: 80px;
+	width: 80px;
+	margin: 5px;
+}
+
+#actionbar{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 75px;
 	margin-right: 25px;
+	float:left;
 }
 
 #lab{
-	width: 25vw;
-	flex: 2;
+	width: 1025px;
+	height: 575px;
+	padding: 20px;
+	float:left;
+}
+
+#clusterimg{
+	top: 15px;
+	left: 25px;
+	<area shape="rect"
 }
 
 #inventory{
-	flex: 3;
-	width: 5vw; 
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin-left: 25px;
+	float:left;
 }
+
+#brick{
+	background-image: url('./resources/brick.jpg');
+	height: 75px;
+	width: 150px;
+	margin: 12px;
+}
+
+#floatingGreen{
+	padding-top: 5px;
+	padding-left: 15px;
+	text-align: left;
+	box-sizing: border-box;
+	background-color: #88ff89;
+	width: 550px;
+	height: 175px;
+	position: absolute;
+	bottom: -100px;
+	left: 75px;
+	z-index: 1;
+	font-family: sans-serif;
+}
+
