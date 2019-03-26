@@ -1,3 +1,15 @@
 .content{
 	text-align: center;
 }
+
+.rectangle{
+	background-color: #909090;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px;
+	height: 100px;
+	width: 70vw;
+}
+
+#header{
+	margin: auto;
+}
