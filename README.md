@@ -1,7 +1,7 @@
 # 42WebDevPiscine
 [42 Silicon Valley](https://www.42.us.org/)'s web development course. Each project has a time limit(usually 1-2 days) with all of the projects being completed over a 2 week period total.
 
-Projects are done in CSS, HTML, Javascript, PHP.
+Projects are done in CSS, HTML, Javascript, PHP, Node.js
 
 AKA PHP Piscine, but I'm focusing on Node.js since it's more modern.
 
