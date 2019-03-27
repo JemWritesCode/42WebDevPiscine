@@ -17,6 +17,7 @@ I used a [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) an
 
 #### Ex02: 
 Ex05 is Ex02 but built out into a full game. Try to think of how to make your classes reusable for building things out.
+To make things clickable on the image you can use GIMP to create areas for a [HTML Image Map.](https://www.w3schools.com/tags/tag_map.asp)
 ![ex02](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/Ex02.png?raw=true)
 
 #### Ex03: 
