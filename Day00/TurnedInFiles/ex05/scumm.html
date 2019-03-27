@@ -14,11 +14,11 @@
 		</div>
 		<div id="bottom">
 			<div class="rectangle sidebar" id="actionbar">
-				<img class ="actions" id="Advance" src="./resources/arrow.png" title="Advance" onclick="changeLocation(); highlightSelectedItem();"><br/>
-				<img class ="actions" id="Take" src="./resources/main.png" title="Take" onclick="highlightSelectedItem(this.id);"><br/>
-				<img class ="actions" id="Look" src="./resources/oeil.png" title="Look" onclick="highlightSelectedItem(this.id);"><br/>
-				<img class ="actions" id="Use" src="./resources/outil.png" title="Use" onclick="highlightSelectedItem(this.id);"><br/>
-				<img class ="actions" id="Speak" src="./resources/chat-icon.png" title="Speak" onclick="highlightSelectedItem(this.id);">
+				<img class ="actions" id="Advance" src="./resources/arrow.png" title="Advance" onclick="changeLocation(); highlightSelectedAction();"><br/>
+				<img class ="actions" id="Take" src="./resources/main.png" title="Take" onclick="highlightSelectedAction(this.id);"><br/>
+				<img class ="actions" id="Look" src="./resources/oeil.png" title="Look" onclick="highlightSelectedAction(this.id);"><br/>
+				<img class ="actions" id="Use" src="./resources/outil.png" title="Use" onclick="highlightSelectedAction(this.id);"><br/>
+				<img class ="actions" id="Speak" src="./resources/chat-icon.png" title="Speak" onclick="highlightSelectedAction(this.id);">
 			</div>
 			<div class="rectangle" id="location">
 				<img src="./resources/cluster.jpg" id="locationimg" title="locationImg" usemap="#ClickableCluster">
@@ -27,19 +27,19 @@
 					<area id="clickableChair" title="clickableChair" shape="poly" coords="398,347,366,335,351,333,337,332,331,341,338,357,351,382,351,395,348,419,349,446,356,455,367,459,387,464,397,470,397,490,337,500,332,557,439,564,482,511,470,490,438,489,479,424,464,384,465,385"  href="http://www.ikea.com"/>
 				</map>
 				<map name="ClickableRobotics">
-					<area shape="poly" coords="834,3,802,52,790,76,838,105,1005,108,1012,93,998,69,990,38,999,28,987,1" alt="golfcart" onclick="GrabItem('GolfCart')" />
-					<area shape="poly" coords="953,356,950,389,930,388,913,377,910,351,958,348" alt="coffeecup" onclick="GrabItem('Cup')" />
+					<area shape="poly" coords="834,3,802,52,790,76,838,105,1005,108,1012,93,998,69,990,38,999,28,987,1" alt="golfcart" onclick="ClickItemOnMap('GolfCart')" />
+					<area shape="poly" coords="953,356,950,389,930,388,913,377,910,351,958,348" alt="coffeecup" onclick="ClickItemOnMap('Cup')" />
 				</map>
 				<map name="ClickableCheckin">
-					<area shape="poly" coords="290,283,278,289,282,312,266,318,251,373,250,404,257,408,270,403,264,387,272,345,265,407,273,425,277,454,292,506,297,515,323,507,317,408,321,348,313,319,307,292,293,284" id="Jamie"  onclick="talkTo('Jamie')" />
-					<area shape="poly" coords="448,281,451,267,430,258,396,269,410,300,395,389,414,500,487,513,480,405,499,371,469,291,450,266" id="Student"  onclick="talkTo('Student')" />
+					<area shape="poly" coords="290,283,278,289,282,312,266,318,251,373,250,404,257,408,270,403,264,387,272,345,265,407,273,425,277,454,292,506,297,515,323,507,317,408,321,348,313,319,307,292,293,284" id="Jamie"  onclick="ClickPerson('Jamie')" />
+					<area shape="poly" coords="448,281,451,267,430,258,396,269,410,300,395,389,414,500,487,513,480,405,499,371,469,291,450,266" id="Student"  onclick="ClickPerson('Student')" />
 				</map></div>
 			<div class="rectangle sidebar" id="inventory">
-				<img src="./resources/book.png" title="Book" width="85px" height="125px"><br/>
-				<img src="./resources/towel.png" title="Towel" width="75px" height="75px"><br/>
+				<img id="Book" src="./resources/book.png" title="Book" width="85px" height="125px" onclick="highlightSelectedItem(this.id);"><br/>
+				<img id="Towel" src="./resources/towel.png" title="Towel" width="75px" height="75px" onclick="highlightSelectedItem(this.id);"><br/>
 				<div id="brick" title="Brick"></div><br/>
-				<img  style="visibility: hidden;" src="./resources/golfcart.jpg" id= "cart" title="Cart" width="75px" height="75px"><br/>
-				<img  style="visibility: hidden;" src="./resources/coffeecup.jpeg" id="cup" title="Cup" width="75px" height="75px">
+				<img style="visibility: hidden;" src="./resources/golfcart.jpg" id= "cart" title="Cart" width="75px" height="75px" onclick="highlightSelectedItem(this.id);"><br/>
+				<img  style="visibility: hidden;" src="./resources/coffeecup.jpeg" id="cup" title="Cup" width="75px" height="75px" onclick="highlightSelectedItem(this.id);">
 			</div>
 		</div>
 		<div class="rectangle floatingGreen" id="floatingGreen">

@@ -1,4 +1,5 @@
 
+var currentSelectedAction;
 var currentSelectedItem;
 
 function changeLocation(){
@@ -15,39 +16,95 @@ function changeLocation(){
     }
 }
 
-function talkTo(Name){
+function ClickPerson(Name){
 	if(Name == 'Jamie'){
-		document.getElementById("GreenBoxText").innerHTML = "Hi, I'm Jamie! I'm the corporate relations manager. You should check out the golf cart in the robotics lab! Whats your name?";
-		if(document.getElementById("cart").style.visibility = "visible")
-			document.getElementById("GreenBoxText").innerHTML = "I said check the cart out, not take it out!";
+		if(currentSelectedAction == 'Speak'){
+			document.getElementById("GreenBoxText").innerHTML = "Hi, I'm Jamie! I'm the corporate relations manager. You should check out the golf cart in the robotics lab! Whats your name?";
+		}
+		else if(currentSelectedAction == 'Use'){
+			if(currentSelectedItem == 'cart' && document.getElementById("cart").style.visibility == "visible"){
+					document.getElementById("GreenBoxText").innerHTML = "I said check the cart out, not take it out!";
+			} else if(currentSelectedItem == 'cup' && document.getElementById("cup").style.visibility == "visible"){
+					document.getElementById("GreenBoxText").innerHTML = "Thanks, but I've had enough caffiene today already.";
+			}
+		}
+		else if(currentSelectedAction == 'Take'){
+			document.getElementById("GreenBoxText").innerHTML = "You can't TAKE Jamie.";
+		}
+		else if(currentSelectedAction == 'Look'){
+			document.getElementById("GreenBoxText").innerHTML = "She looks friendly but firm.";
+		}
 	}
 	if(Name == 'Student'){
-		document.getElementById("GreenBoxText").innerHTML = "Hi, I'm a student here at 42. I could use some coffee. Are you thinking of attending 42?";
-		if(document.getElementById("cup").style.visibility = "visible")
-			document.getElementById("GreenBoxText").innerHTML = "...Why is this coffee half empty?";
+		if(currentSelectedAction == 'Speak'){
+			document.getElementById("GreenBoxText").innerHTML = "Hi, I'm a student here at 42. I could use some coffee. Are you thinking of attending 42?";
+		}
+		else if(currentSelectedAction == 'Use'){
+			if(currentSelectedItem == 'cart' && document.getElementById("cart").style.visibility == "visible"){
+					document.getElementById("GreenBoxText").innerHTML = "Oh, you're visiting Tesla?";
+			} else if(currentSelectedItem == 'cup' && document.getElementById("cup").style.visibility == "visible"){
+					document.getElementById("GreenBoxText").innerHTML = "Uh...why is half the coffee missing already?";
+			}
+		}
+		else if(currentSelectedAction == 'Take'){
+			document.getElementById("GreenBoxText").innerHTML = "You can't TAKE the student.";
+		}
+		else if(currentSelectedAction == 'Look'){
+			document.getElementById("GreenBoxText").innerHTML = "The student looks ready to learn.";
+		}
 	}
+}
+
+function highlightSelectedAction(itemID){
+	if(currentSelectedAction){
+		document.getElementById(currentSelectedAction).className = "actions";
+	}
+	document.getElementById(itemID).className = "actions selected";
+	currentSelectedAction = itemID;
 }
 
 function highlightSelectedItem(itemID){
 	if(currentSelectedItem){
-		document.getElementById(currentSelectedItem).className = "actions";
+		document.getElementById(currentSelectedItem).className = " ";
 	}
-	document.getElementById(itemID).className = "actions selected";
-	currentSelectedItem = itemID;
+	document.getElementById(itemID).className = " selected";
+		currentSelectedItem = itemID;
 }
 
-function GrabItem(itemTaken){
-	if(itemTaken == 'GolfCart' && currentSelectedItem == 'Take'){
-		document.getElementById("GreenBoxText").innerHTML = "You take the golf cart.<br/> ...Why? Are you planning to drive to Tesla?";
-		document.getElementById("cart").style.visibility = "visible";
+function ClickItemOnMap(itemTaken){
+
+	if(itemTaken == 'GolfCart'){
+		if(currentSelectedAction == 'Take'){
+			document.getElementById("GreenBoxText").innerHTML = "You take the golf cart.<br/> ...Why? Are you planning to drive to Tesla?";
+			document.getElementById("cart").style.visibility = "visible";			
+		}
+		else if(currentSelectedAction == 'Look'){
+			document.getElementById("GreenBoxText").innerHTML = "It's a golf cart. They've attached some things to it. Maybe it can drive itself?";
+		}
+		else if(currentSelectedAction == 'Use'){
+			document.getElementById("GreenBoxText").innerHTML = "You try to use the golfcart, but there are no keys.";
+		}
+		else if(currentSelectedAction == 'Speak'){
+			document.getElementById("GreenBoxText").innerHTML = "You tell the golf cart it's a good cart. Silence echos back at you, but you feel happier.";
+		}
 	}
-	else if(itemTaken == 'Cup' && currentSelectedItem == 'Take'){
-		document.getElementById("GreenBoxText").innerHTML = "You snatch the coffee out of the programmer's hands. The programmer does not seem happy about it.";
-		document.getElementById("cup").style.visibility = "visible";
+	else if(itemTaken == 'Cup'){
+		if(currentSelectedAction == 'Take'){
+			document.getElementById("GreenBoxText").innerHTML = "You snatch the coffee out of the programmer's hands. The programmer does not seem happy about it.";
+			document.getElementById("cup").style.visibility = "visible";
+		}
+		else if(currentSelectedAction == 'Look'){
+			document.getElementById("GreenBoxText").innerHTML = "A programmer is really enjoying some coffee.";
+		}
+		else if(currentSelectedAction == 'Use'){
+			document.getElementById("GreenBoxText").innerHTML = "You try to drink from the coffee cup, but the programmer pulls it away from you.";
+		}
+		else if(currentSelectedAction == 'Speak'){
+			document.getElementById("GreenBoxText").innerHTML = "You tell the coffee cup it's the best part of your day. The programmer gives you a concerned look.";
+		}		
 	}
 	else{
-		document.getElementById("GreenBoxText").innerHTML = "To take things you need to click the take button first.";
+		document.getElementById("GreenBoxText").innerHTML = "Select an action button on the left first (Take, Look, Use, Speak).";
 		document.getElementById(itemTaken).style.visibility = "visible";
 	}
-
 }
