@@ -25,4 +25,5 @@ It can shrink!
 
 #### Ex04:
 I suppose one simply adds a dropdown.
-https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/Ex04Dropdown.png?raw=true
+![ex04](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/Ex04Dropdown.png?raw=true)
+
