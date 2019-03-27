@@ -27,3 +27,6 @@ It can shrink!
 I suppose one simply adds a dropdown.
 ![ex04](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/Ex04Dropdown.png?raw=true)
 
+#### Ex05:
+Making the game work -- the actions on the left and the items on the right can be used on things in the image maps in the middle. 
+![ex05](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/ex05.png?raw=true)
