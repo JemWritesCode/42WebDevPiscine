@@ -18,9 +18,13 @@ function changeLocation(){
 function talkTo(Name){
 	if(Name == 'Jamie'){
 		document.getElementById("GreenBoxText").innerHTML = "Hi, I'm Jamie! I'm the corporate relations manager. You should check out the golf cart in the robotics lab! Whats your name?";
+		if(document.getElementById("cart").style.visibility = "visible")
+			document.getElementById("GreenBoxText").innerHTML = "I said check the cart out, not take it out!";
 	}
 	if(Name == 'Student'){
 		document.getElementById("GreenBoxText").innerHTML = "Hi, I'm a student here at 42. I could use some coffee. Are you thinking of attending 42?";
+		if(document.getElementById("cup").style.visibility = "visible")
+			document.getElementById("GreenBoxText").innerHTML = "...Why is this coffee half empty?";
 	}
 }
 
