@@ -23,9 +23,18 @@ function ClickPerson(Name){
 		}
 		else if(currentSelectedAction == 'Use'){
 			if(currentSelectedItem == 'cart' && document.getElementById("cart").style.visibility == "visible"){
-					document.getElementById("GreenBoxText").innerHTML = "I said check the cart out, not take it out!";
-			} else if(currentSelectedItem == 'cup' && document.getElementById("cup").style.visibility == "visible"){
-					document.getElementById("GreenBoxText").innerHTML = "Thanks, but I've had enough caffiene today already.";
+				document.getElementById("GreenBoxText").innerHTML = "I said check the cart out, not take it out!";
+			}else if(currentSelectedItem == 'cup' && document.getElementById("cup").style.visibility == "visible"){
+				document.getElementById("GreenBoxText").innerHTML = "Thanks, but I've had enough caffiene today already.";
+			}else if(currentSelectedItem == 'Book'){
+				document.getElementById("GreenBoxText").innerHTML = "Ah, the Hitchhiker's guide to the galaxy. That's the best book to have here.";
+			}else if(currentSelectedItem == 'Towel'){
+				document.getElementById("GreenBoxText").innerHTML = "Thanks, but I always carry my own towel with me.";
+			}else if(currentSelectedItem == 'brick'){
+				document.getElementById("GreenBoxText").innerHTML = "You build your knowledge brick by brick. Before you know it you have a wall.";
+			}
+			else{
+				document.getElementById("GreenBoxText").innerHTML = "Select an item on the right to use.";
 			}
 		}
 		else if(currentSelectedAction == 'Take'){
@@ -44,6 +53,15 @@ function ClickPerson(Name){
 					document.getElementById("GreenBoxText").innerHTML = "Oh, you're visiting Tesla?";
 			} else if(currentSelectedItem == 'cup' && document.getElementById("cup").style.visibility == "visible"){
 					document.getElementById("GreenBoxText").innerHTML = "Uh...why is half the coffee missing already?";
+			}else if(currentSelectedItem == 'Book'){
+				document.getElementById("GreenBoxText").innerHTML = "Remember: DONT PANIC.";
+			}else if(currentSelectedItem == 'Towel'){
+				document.getElementById("GreenBoxText").innerHTML = "Thanks, but I just bought a towel yesterday!";
+			}else if(currentSelectedItem == 'brick'){
+				document.getElementById("GreenBoxText").innerHTML = "Sometimes you hit a wall, but if you take a break you can come back to the problem with a fresh perspective.";
+			}
+			else{
+				document.getElementById("GreenBoxText").innerHTML = "Select an item on the right to use.";
 			}
 		}
 		else if(currentSelectedAction == 'Take'){
