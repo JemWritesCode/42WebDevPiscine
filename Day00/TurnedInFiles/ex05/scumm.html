@@ -39,14 +39,14 @@
 				<img id="Towel" src="./resources/towel.png" title="Towel" width="75px" height="75px" onclick="highlightSelectedItem(this.id);"><br/>
 				<div id="brick" title="Brick" onclick="highlightSelectedItem(this.id);"></div><br/>
 				<img style="visibility: hidden;" src="./resources/golfcart.jpg" id= "cart" title="Cart" width="75px" height="75px" onclick="highlightSelectedItem(this.id);"><br/>
-				<img  style="visibility: hidden;" src="./resources/coffeecup.jpeg" id="cup" title="Cup" width="75px" height="75px" onclick="highlightSelectedItem(this.id);">
+				<img style="visibility: hidden;" src="./resources/coffeecup.jpeg" id="cup" title="Cup" width="75px" height="75px" onclick="highlightSelectedItem(this.id);">
 			</div>
 		</div>
 		<div class="rectangle floatingGreen" id="floatingGreen">
 			<div style="position: relative; padding: 25px">
 				<span id="GreenBoxText">You're in the lab! Everyone here is busy, maybe you should find someone to talk to in the Checkin Room. </span>
-				<div style="position: absolute; top: 125px">
-					<input type="text" name="Response" size="60">   <button type="button">Respond</button>
+				<div id ="ResponseBox" style="position: absolute; top: 125px;visibility: hidden;">
+					<input id="Response" type="text" name="Response" size="60">  <button type="button" onclick="RespondToQuestion();">Respond</button>
 				</div>
 			</div>
 		</div>

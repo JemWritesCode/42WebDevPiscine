@@ -1,6 +1,7 @@
 
 var currentSelectedAction;
 var currentSelectedItem;
+var currentSelectedPerson;
 
 function changeLocation(){
 	element=document.getElementById('locationimg')
@@ -17,9 +18,12 @@ function changeLocation(){
 }
 
 function ClickPerson(Name){
+	currentSelectedPerson = Name;
+	document.getElementById("ResponseBox").style.visibility = "hidden";
 	if(Name == 'Jamie'){
 		if(currentSelectedAction == 'Speak'){
 			document.getElementById("GreenBoxText").innerHTML = "Hi, I'm Jamie! I'm the corporate relations manager. You should check out the golf cart in the robotics lab! Whats your name?";
+			document.getElementById("ResponseBox").style.visibility = "visible";
 		}
 		else if(currentSelectedAction == 'Use'){
 			if(currentSelectedItem == 'cart' && document.getElementById("cart").style.visibility == "visible"){
@@ -47,6 +51,7 @@ function ClickPerson(Name){
 	if(Name == 'Student'){
 		if(currentSelectedAction == 'Speak'){
 			document.getElementById("GreenBoxText").innerHTML = "Hi, I'm a student here at 42. I could use some coffee. Are you thinking of attending 42?";
+			document.getElementById("ResponseBox").style.visibility = "visible";
 		}
 		else if(currentSelectedAction == 'Use'){
 			if(currentSelectedItem == 'cart' && document.getElementById("cart").style.visibility == "visible"){
@@ -73,6 +78,17 @@ function ClickPerson(Name){
 	}
 }
 
+function RespondToQuestion(){
+	if(currentSelectedPerson == 'Jamie'){
+		var response = document.getElementById("Response").value
+		document.getElementById("GreenBoxText").innerHTML = `Nice to meet you, ${response}!`;
+	}
+	if(currentSelectedPerson == 'Student'){
+		var response = document.getElementById("Response").value
+		document.getElementById("GreenBoxText").innerHTML = `${response}? Well that's interesting!`;
+	}	
+}
+
 function highlightSelectedAction(itemID){
 	if(currentSelectedAction){
 		document.getElementById(currentSelectedAction).className = "actions";
@@ -90,7 +106,7 @@ function highlightSelectedItem(itemID){
 }
 
 function ClickItemOnMap(itemTaken){
-
+document.getElementById("ResponseBox").style.visibility = "hidden";
 	if(itemTaken == 'GolfCart'){
 		if(currentSelectedAction == 'Take'){
 			document.getElementById("GreenBoxText").innerHTML = "You take the golf cart.<br/> ...Why? Are you planning to drive to Tesla?";
