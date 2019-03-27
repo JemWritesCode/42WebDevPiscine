@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+	<link rel="stylesheet" type="text/css" href="doft.css">
+	<script src="scumm.js"></script>
+</HEAD>
+<BODY style="background-color: #505050">
+	<div class="content">
+		<div class="rectangle" id="header">
+			<img src="./resources/day_of_the_42.png" height="150px" style="position: absolute; left: 25px;">
+			<a href="http://www.disney.com"><img src="./resources/reload.png" height="20px" style="position: absolute; top: 10px; right: 15px"></a>
+			<a href="http://www.relaischateaux.com"><img src="./resources/close.gif" style="position: absolute; bottom: 15px; right: 15px"></a>
+			<img src="./resources/loupe.png" style="position: absolute; right: 35px; top: 30px;">
+		</div>
+		<div id="bottom">
+			<div class="rectangle sidebar" id="actionbar">
+				<img class = "actions" src="./resources/arrow.png" title="Advance" onclick="changeLocation();"><br/>
+				<img class = "actions" src="./resources/main.png" title="Take"><br/>
+				<img class = "actions selected" src="./resources/oeil.png" title="Look"><br/>
+				<img class = "actions" src="./resources/outil.png" title="Use"><br/>
+				<img class = "actions" src="./resources/chat-icon.png" title="Speak">
+			</div>
+			<div class="rectangle" id="location">
+				<img src="./resources/cluster.jpg" id="locationimg" title="cluster" usemap="#clickableimage">
+				<map name="clickableimage">
+					<area id="clickableComputer" title="clickableComputer" shape="poly" coords="658,303,650,381,690,390,711,401,719,409,776,416,779,309,779,310" href="http://www.apple.com"/>
+					<area id="clickableChair" title="clickableChair" shape="poly" coords="398,347,366,335,351,333,337,332,331,341,338,357,351,382,351,395,348,419,349,446,356,455,367,459,387,464,397,470,397,490,337,500,332,557,439,564,482,511,470,490,438,489,479,424,464,384,465,385"  href="http://www.ikea.com"/>
+				</map>
+			</div>
+			<div class="rectangle sidebar" id="inventory">
+				<img src="./resources/book.png" title="Book" width="85px" height="125px"><br/>
+				<img src="./resources/towel.png" title="Towel" width="75px" height="75px">
+				<div id="brick" title="Brick"></div>		
+			</div>
+		</div>
+		<div class="rectangle floatingGreen" id="floatingGreen">
+			You enter a large room filled with computers.<br/>
+			<span style="font-style: italic;">- Hello, what is your name?</span><br/>
+			<input type="text" name="Response" size="60">   <input type="submit" value="Repondre"></button>
+		</div>
+	</div>
+</BODY>
+</HTML>
