@@ -1,6 +1,8 @@
 <HTML>
 <HEAD>
-	<link rel="stylesheet" type="text/css" href="doft.css">
+	<TITLE>Explore42</TITLE>
+	<link rel="stylesheet" type="text/css" href="scumm.css">
+	<script src="scumm.js"></script>
 </HEAD>
 <BODY style="background-color: #505050">
 	<div class="content">
@@ -12,17 +14,21 @@
 		</div>
 		<div id="bottom">
 			<div class="rectangle sidebar" id="actionbar">
-				<img class = "actions" src="./resources/arrow.png" title="Advance"><br/>
-				<img class = "actions" src="./resources/main.png" title="Take"><br/>
-				<img class = "actions selected" src="./resources/oeil.png" title="Look"><br/>
-				<img class = "actions" src="./resources/outil.png" title="Use"><br/>
-				<img class = "actions" src="./resources/chat-icon.png" title="Speak">
+				<img class ="actions" id="Advance" src="./resources/arrow.png" title="Advance" onclick="changeLocation();"><br/>
+				<img class ="actions" id="Take" src="./resources/main.png" title="Take"><br/>
+				<img class ="actions selected" id="Look" src="./resources/oeil.png" title="Look"><br/>
+				<img class ="actions" id="Use" src="./resources/outil.png" title="Use"><br/>
+				<img class ="actions" id="Speak" src="./resources/chat-icon.png" title="Speak">
 			</div>
-			<div class="rectangle" id="lab">
-				<img src="./resources/cluster.jpg" id="clusterimg" title="cluster" usemap="#clickableimage">
-				<map name="clickableimage">
+			<div class="rectangle" id="location">
+				<img src="./resources/cluster.jpg" id="locationimg" title="locationImg" usemap="#ClickableCluster">
+				<map name="ClickableCluster">
 					<area id="clickableComputer" title="clickableComputer" shape="poly" coords="658,303,650,381,690,390,711,401,719,409,776,416,779,309,779,310" href="http://www.apple.com"/>
 					<area id="clickableChair" title="clickableChair" shape="poly" coords="398,347,366,335,351,333,337,332,331,341,338,357,351,382,351,395,348,419,349,446,356,455,367,459,387,464,397,470,397,490,337,500,332,557,439,564,482,511,470,490,438,489,479,424,464,384,465,385"  href="http://www.ikea.com"/>
+				</map>
+				<map name="ClickableCheckin">
+					<area shape="poly" coords="290,283,278,289,282,312,266,318,251,373,250,404,257,408,270,403,264,387,272,345,265,407,273,425,277,454,292,506,297,515,323,507,317,408,321,348,313,319,307,292,293,284" id="Jamie"  onclick="talkTo('Jamie')" />
+					<area shape="poly" coords="448,281,451,267,430,258,396,269,410,300,395,389,414,500,487,513,480,405,499,371,469,291,450,266" id="Student"  onclick="talkTo('Student')" />
 				</map>
 			</div>
 			<div class="rectangle sidebar" id="inventory">
@@ -32,9 +38,12 @@
 			</div>
 		</div>
 		<div class="rectangle floatingGreen" id="floatingGreen">
-			You enter a large room filled with computers.<br/>
-			<span style="font-style: italic;">- Hello, what is your name?</span><br/>
-			<input type="text" name="Response" size="60">   <input type="submit" value="Repondre"></button>
+			<div style="position: relative; padding: 25px">
+				<span id="GreenBoxText">You're in the lab! Everyone here is busy, maybe you should find someone to talk to in the Checkin Room. </span>
+				<div style="position: absolute; top: 125px">
+					<input type="text" name="Response" size="60">   <input type="submit" value="Repondre"></button>
+				</div>
+			</div>
 		</div>
 	</div>
 </BODY>
