@@ -60,4 +60,6 @@ I didn't get this turned in on time but it works.
 ![ex07](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex07.png?raw=true)
 
 ## Day02
-
+#### Ex00:
+![ex00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/ExplainationImages/Day02Ex00.png?raw=true)
+#### Ex01:
