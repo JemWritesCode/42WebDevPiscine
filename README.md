@@ -37,7 +37,7 @@ Making the game work -- the actions on the left and the items on the right can b
 ![ex05](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/ex05.png?raw=true)
 
 ## Day01
-I was short on time this day and only got to ex07.
+I was short on time this day and only got to ex07. I probably spent too long on Day00Ex05(but no regrets, that was fun!)
 
 #### Ex00:
 ![ex00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex00.png?raw=true)
@@ -58,4 +58,6 @@ Use RegEx and you can make the function 1 line.
 #### Ex07:
 I didn't get this turned in on time but it works.
 ![ex07](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex07.png?raw=true)
+
+## Day02
 
