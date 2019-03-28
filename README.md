@@ -35,3 +35,12 @@ I suppose one simply adds a dropdown.
 Making the game work -- the actions on the left and the items on the right can be used on things in the image maps in the middle.
 [Click HERE to try out the game](https://htmlpreview.github.io/?https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/TurnedInFiles/ex05/scumm.html)
 ![ex05](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/ex05.png?raw=true)
+
+## Day01
+
+#### Ex00:
+![ex00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex00.png?raw=true)
+#### Ex01:
+![ex01](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex01.png?raw=true)
+#### Ex02:
+![ex02](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex02.png?raw=true)
