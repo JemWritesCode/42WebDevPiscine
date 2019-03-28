@@ -60,10 +60,10 @@ I didn't get this turned in on time but it works.
 ![ex07](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex07.png?raw=true)
 
 ## Day02
+The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/d02.en.pdf) on this day is in a crazy Myst style story format! 
 #### Ex00:
-The [PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/d02.en.pdf) on this day is in a crazy Myst style story format! 
 
-Replace space(s) and tab(s) with a single space.
+- Replace space(s) and tab(s) with a single space.
 
 ![ex00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/ExplainationImages/Day02Ex00.png?raw=true)
 #### Ex01:
