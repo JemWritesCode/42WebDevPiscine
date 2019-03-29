@@ -75,3 +75,10 @@ The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/mast
 - Turn the titles of links Uppercase, and things between <a></a> tags Uppercase.
 - You have to learn RegEx for this one.
 ![ex02](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/ExplainationImages/Day02Ex02.png?raw=true)
+
+
+## Day03
+[Day03 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day03/d03.en.pdf)
+
+#### Ex00:
+
