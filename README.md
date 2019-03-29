@@ -67,3 +67,5 @@ The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/mast
 
 ![ex00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/ExplainationImages/Day02Ex00.png?raw=true)
 #### Ex01:
+
+![ex01](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/ExplainationImages/Day02Ex01.png?raw=true)
