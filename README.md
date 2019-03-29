@@ -70,3 +70,8 @@ The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/mast
 - Change the date from French long format to seconds past epoc.
 - This was a bit tricky because you have to account for changing to Paris time.
 ![ex01](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/ExplainationImages/Day02Ex01.png?raw=true)
+
+#### Ex02:
+- Turn the titles of links Uppercase, and things between <a></a> tags Uppercase.
+- You have to learn RegEx for this one.
+![ex02](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/ExplainationImages/Day02Ex02.png?raw=true)
