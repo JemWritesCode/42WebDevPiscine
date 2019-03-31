@@ -79,6 +79,7 @@ The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/mast
 
 ## Day03
 [Day03 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day03/d03.en.pdf)
+Didn't really have time to work on this much this day
 
-#### Ex00:
+## Day04
 
