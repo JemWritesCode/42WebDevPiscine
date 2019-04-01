@@ -83,9 +83,11 @@ Didn't really have time to work on this much this day
 
 ## Day04
 Code doesn't work, I decided to start watching some more beginner Node.js videos as well.
+Express is used for the server framework. I chose it because it's part of the popular MERN stack that I want to learn.
 
 ## Rush00
-This tutorial series was really helpful:
+This tutorial series was really helpful. It's also part of MERN stack with Node.js/Express/MongoDB.
+
 https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp
 
 This project normally has a partner but I did this solo. But this worked out because I could create it in Node.js!
