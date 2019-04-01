@@ -1,0 +1,18 @@
+<h1>Hi there!</h1>
+<p>Welcome to {{title}}! The best deal because they aren't real!</p>
+
+{{# each products}}
+	<div class="row">
+	{{# each this }}
+	<div class="card col-md-3 m-1" style="width: 18rem;">
+	  <img class="card-img-top" src="{{this.imagepath}}" alt="Card image cap">
+	  <div class="card-body">
+	    <h5 class="card-title">{{this.title}}</h5>
+	    <p class="card-text">{{this.description}}</p>
+	    <div class="price pull-left">${{this.price}}</div>
+	    <a href="#" class="btn btn-primary pull-right">Add To Cart</a>
+	  </div>
+	</div>
+	{{/each}}
+</div>
+{{/each}}
