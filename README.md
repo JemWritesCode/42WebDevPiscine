@@ -82,4 +82,10 @@ The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/mast
 Didn't really have time to work on this much this day
 
 ## Day04
+Code doesn't work, I decided to start watching some more beginner Node.js videos as well.
 
+## Rush00
+This tutorial series was really helpful:
+https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp
+
+This project normally has a partner but I did this solo. But this worked out because I could create it in Node.js!
