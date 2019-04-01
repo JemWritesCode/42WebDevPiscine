@@ -96,6 +96,6 @@ I used:
 - Express for my web server framework
 - Bootstrap for styling so that it would look nice without too much work. (Card components for inventory items, Navbar component)
 - Mongoose to connect to my MongoDB.
-- Express-Handlebars for my view engine. This is what parses my views so I can use the variables that are inside curly braces like `{{variable}}` as well as the helpers like {{# each}} for looping in the view.
+- Express-Handlebars for my view engine. This is what parses my views so I can use the variables that are inside curly braces like `{{variable}}` as well as the helpers like `{{# each}}` for looping in the view.
 
 ![Rush00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Rush00.png?raw=true)
