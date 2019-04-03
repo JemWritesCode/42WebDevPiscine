@@ -3,7 +3,7 @@
 
 Projects are done in CSS, HTML, Javascript, PHP, Node.js
 
-AKA PHP Piscine, but I'm focusing on Node.js since it's more modern.
+AKA PHP Piscine, but I'm focusing on Node.js since it's more modern. (This is allowed by admin(bocal) even though the instructions say PHP.
 
 
 ## Day00:
