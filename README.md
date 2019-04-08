@@ -1,9 +1,7 @@
 # 42WebDevPiscine
 [42 Silicon Valley](https://www.42.us.org/)'s web development course. Each project has a time limit(usually 1-2 days) with all of the projects being completed over a 2 week period total.
 
-Projects are done in CSS, HTML, Javascript, Node.js
-
-AKA PHP Piscine, but I'm focusing on Node.js since it's more modern. (This is allowed by admin(bocal) even though the instructions say PHP.)
+Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Material, but I chose to learn Node.js because it's in much higher demand.
 
 Tips:
 Make sure MySQL is installed for Day05. I was also thinking of learning AWS for Day05 but there's a 24hr cooldown period for student accounts so if you're interested in that sign up for an AWS account ASAP.
