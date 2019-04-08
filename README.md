@@ -1,9 +1,12 @@
 # 42WebDevPiscine
 [42 Silicon Valley](https://www.42.us.org/)'s web development course. Each project has a time limit(usually 1-2 days) with all of the projects being completed over a 2 week period total.
 
-Projects are done in CSS, HTML, Javascript, PHP, Node.js
+Projects are done in CSS, HTML, Javascript, Node.js
 
-AKA PHP Piscine, but I'm focusing on Node.js since it's more modern. (This is allowed by admin(bocal) even though the instructions say PHP.
+AKA PHP Piscine, but I'm focusing on Node.js since it's more modern. (This is allowed by admin(bocal) even though the instructions say PHP.)
+
+Tips:
+Make sure MySQL is installed for Day05. I was also thinking of learning AWS for Day05 but there's a 24hr cooldown period for student accounts so if you're interested in that sign up for an AWS account ASAP.
 
 
 ## Day00:
@@ -99,3 +102,6 @@ I used:
 - Express-Handlebars for my view engine. This is what parses my views so I can use the variables that are inside curly braces like `{{variable}}` as well as the helpers like `{{# each}}` for looping in the view.
 
 ![Rush00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Rush00.png?raw=true)
+
+## Day05,06, ...
+I had to stop after the Rush because I had work. I will say for Day06 you're supposed to write code that passes php unit tests -- for those doing NodeJS it may be best to skip this day or do it ahead of time so you can write your own tests. Or just do this in php.
