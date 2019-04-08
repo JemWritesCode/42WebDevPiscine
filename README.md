@@ -3,7 +3,7 @@
 
 Projects are done in CSS, HTML, Javascript, PHP, Node.js
 
-AKA PHP Piscine, but I'm focusing on Node.js since it's more modern.
+AKA PHP Piscine, but I'm focusing on Node.js since it's more modern. (This is allowed by admin(bocal) even though the instructions say PHP.
 
 
 ## Day00:
@@ -86,6 +86,8 @@ Code doesn't work, I decided to start watching some more beginner Node.js videos
 Express is used for the server framework. I chose it because it's part of the popular MERN stack that I want to learn.
 
 ## Rush00
+[Rush00 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/rush00.en.pdf)
+
 The [NodeJS / Express / MongoDB - Build a Shopping Cart tutorial series by Acedemind on ](https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp) was really helpful and was a good stepping stone to learning MERN. There is a lot to setting up a basic application and figuring out how to get MongoDB running on school computers was a feat. If I had to do it again I'd probably try using a MongoDB database that was hosted online. (A friend recommended [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) so I'll check that out.) (For 42 students, the main thing with running MongoDB is the dbpath has to be set to the goinfre folder so that the datbase files are saved to that specific computer. But this also means your db files would only be saved on that computer.) This project normally has a partner but I did this solo. But this worked out because I could create it in Node.js!
 
 While I didn't finish (spent way too long trying to configure MongoDB for school network), I did manage to get the inventory to pull from the database. 
@@ -94,6 +96,6 @@ I used:
 - Express for my web server framework
 - Bootstrap for styling so that it would look nice without too much work. (Card components for inventory items, Navbar component)
 - Mongoose to connect to my MongoDB.
-- Express-Handlebars for my view engine. This is what parses my views so I can use the variables that are inside curly braces like `{{variable}}` as well as the helpers like {{# each}} for looping in the view.
+- Express-Handlebars for my view engine. This is what parses my views so I can use the variables that are inside curly braces like `{{variable}}` as well as the helpers like `{{# each}}` for looping in the view.
 
 ![Rush00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Rush00.png?raw=true)
