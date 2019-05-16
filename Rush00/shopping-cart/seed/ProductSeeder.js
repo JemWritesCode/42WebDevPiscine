@@ -16,14 +16,21 @@ var products = [
 	new Product({
 		imagepath: 'https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Images/animal-3174290_1920.jpg?raw=true',
 		title: 'Bird Food',
-		description: 'Keeps Birds Fed and Happy',
+		description: 'This is delicious, quoth the raven evermore',
 		price: 10,
 		category: 'pets'
 	}), 
 	new Product({
 		imagepath: 'https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Images/cat-1136365_1920.jpg?raw=true',
 		title: 'Cat Food',
-		description: 'Keeps Cats Fed and Happy',
+		description: 'Felines feel fine feeding on this grub.',
+		price: 10,
+		category: 'pets'
+	}), 
+	new Product({
+		imagepath: 'https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Images/cat-1136365_1920.jpg?raw=true',
+		title: 'Fish Food Food',
+		description: 'We promise your fish will say yum!',
 		price: 10,
 		category: 'pets'
 	})
