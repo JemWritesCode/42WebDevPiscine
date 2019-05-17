@@ -10,7 +10,7 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
-const connectionString = 'mongodb+srv://jem:aBRY1wuriaitLrKf@cluster0-bu7rx.mongodb.net/test?retryWrites=true';
+const connectionString = 'mongodb+srv://jem:aBRY1wuriaitLrKf@cluster0-bu7rx.mongodb.net/Shop?retryWrites=true';
 mongoose.connect(connectionString);
 
 // view engine setup
