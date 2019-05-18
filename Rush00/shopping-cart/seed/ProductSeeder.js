@@ -3,7 +3,7 @@ var Product = require('../models/product');
 var mongoose = require('mongoose');
 const connectionString = 'mongodb+srv://jem:aBRY1wuriaitLrKf@cluster0-bu7rx.mongodb.net/Shop?retryWrites=true';
 
-mongoose.connect(connectionString, { useNewUrlParser: false });
+mongoose.connect(connectionString);
 
 //Delete things currently in Shop.products. This seeder always clears the DB to start fresh.
 var db = mongoose.connection;
