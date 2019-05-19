@@ -16,6 +16,7 @@ var app = express();
 
 const connectionString = 'mongodb+srv://jem:aBRY1wuriaitLrKf@cluster0-bu7rx.mongodb.net/Shop?retryWrites=true';
 mongoose.connect(connectionString);
+require('./config/passport');
 
 // view engine setup
 app.engine('.hbs', expressHbs({defaultLayout: 'layout', extname: '.hbs'}));
