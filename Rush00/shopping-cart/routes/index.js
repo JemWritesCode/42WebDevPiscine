@@ -21,16 +21,17 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/user/register', function(req, res, next){
-	res.render('user/register', {csrfToken: req.csrfToken()});
+	var messages = req.flash('error');
+	res.render('user/register', {csrfToken: req.csrfToken(), messages: messages, hasErrors: messages.length > 0});
 })
 
 router.post('/user/register', passport.authenticate('local.signup', {
-	successRedirect: '/profile',
-	failureRedirect: '/register',
+	successRedirect: '/user/profile',
+	failureRedirect: '/user/register',
 	failureFlash: true
 }));
 
-router.get('/profile', function(req, res, next){
+router.get('/user/profile', function(req, res, next){
 	res.render('user/profile');
 });
 

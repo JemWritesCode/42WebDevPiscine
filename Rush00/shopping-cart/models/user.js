@@ -15,4 +15,4 @@ userSchema.methods.validPassword = function(password){
 	return bcrypt.comparesync(password, this.password);
 };
 
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('User', userSchema); // this is where the name of the collection is determined.
