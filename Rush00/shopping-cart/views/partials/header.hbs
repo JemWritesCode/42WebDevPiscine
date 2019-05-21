@@ -8,8 +8,13 @@
     <ul class="navbar-nav mr-auto">
     </ul>
     <form class="form-inline my-2 my-lg-0">
+      {{# if login}}
+        <a class="btn btn-outline-success" href="/user/profile" role="button">Profile</a> &nbsp;&nbsp;
+        <a class="btn btn-outline-success" href="/user/logout" role="button">Logout</a> &nbsp;&nbsp;
+      {{else}}
         <a class="btn btn-outline-success" href="/user/signin" role="button">Login</a> &nbsp;&nbsp;
         <a class="btn btn-outline-success" href="/user/register" role="button">Register</a> &nbsp;&nbsp;
+      {{/if}}
         <a class="btn btn-outline-primary" href="/user/register" role="button"><span class="fa fa-shopping-cart"></span> Shopping Cart</a>
     </form>
   </div>
