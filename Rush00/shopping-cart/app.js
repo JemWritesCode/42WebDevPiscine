@@ -8,6 +8,7 @@ var mongoose = require('mongoose');
 var session = require('express-session');
 var passport = require('passport');
 var flash = require('connect-flash');
+var validator = require('express-validator');
 
 
 var indexRouter = require('./routes/index');
@@ -25,6 +26,7 @@ app.set('view engine', '.hbs');
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(validator()); // must be after bodyparser because it validates the body
 app.use(cookieParser());
 app.use(session({secret: 'mysupersecret', resave: false, saveUninitialized: false}));
 app.use(flash());
