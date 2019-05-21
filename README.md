@@ -3,11 +3,13 @@
 
 Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Material, but I chose to learn Node.js because it's in much higher demand.
 
-Tips:
+#### Tips:
+
 1.) Make sure MySQL is installed for Day05. I was also thinking of learning AWS for Day05 but there's a 24hr cooldown period for student accounts so if you're interested in that sign up for an AWS account ASAP.
 
-2.) If you're doing this piscine in Node.js I recommend getting some of the material done ahead of time-- Node.js is great for medium-large projects but sometimes something small in PHP can take a while to spin up in Node.js
+2.) If you're doing this piscine in Node.js I recommend getting some of the material done ahead of time-- Node.js is great for medium-large projects but sometimes something small in PHP can take a while to spin up in Node.js.
 
+3.) For 42 students, the main thing with running MongoDB is the dbpath has to be set to the goinfre folder so that the datbase files are saved to that specific computer. But this also means your db files would only be saved on that computer. I recommend using [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) free tier so your database is in the cloud instead. 
 
 ## Day00:
 [Day00 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/d00.en.pdf)
@@ -42,7 +44,7 @@ Making the game work -- the actions on the left and the items on the right can b
 ![ex05](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/ex05.png?raw=true)
 
 ## Day01
-[Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/d01.en.pdf)
+[Day01 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/d01.en.pdf)
 
 #### Ex00:
 ![ex00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex00.png?raw=true)
@@ -93,15 +95,14 @@ Express is used for the server framework. I chose it because it's part of the po
 ## Rush00
 [Rush00 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/rush00.en.pdf)
 
-The [NodeJS / Express / MongoDB - Build a Shopping Cart tutorial series by Acedemind on ](https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp) was really helpful and was a good stepping stone to learning MERN. There is a lot to setting up a basic application and figuring out how to get MongoDB running on school computers was a feat.(For 42 students, the main thing with running MongoDB is the dbpath has to be set to the goinfre folder so that the datbase files are saved to that specific computer. But this also means your db files would only be saved on that computer.) This project normally has a partner but I did this solo. But this worked out because I could create it in Node.js! I ended up moving my database over to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) so instead of trying to host your database on the school computers it can be in the cloud. It works much better. Just set your connection string to the one you get from MongoDB Atlas instead of the one mentioned in the tutorial.
-
-While I didn't finish (spent way too long configuring MongoDB for school network), I did manage to get the inventory to pull from the database. 
+The [NodeJS / Express / MongoDB - Build a Shopping Cart tutorial series by Acedemind on ](https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp) was really helpful and was a good stepping stone to learning MERN. It's not exactly the same as the school project, but it gets you close enough. This project normally has a partner but I did this solo. I ended up moving my database over to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) so instead of trying to host your database on the school computers it can be in the cloud. Just set your connection string to the one you get from MongoDB Atlas instead of the one mentioned in the tutorial.
 
 I used:
 - Express for my web server framework
 - Bootstrap for styling so that it would look nice without too much work. (Card components for inventory items, Navbar component)
 - Mongoose to connect to my MongoDB.
 - Express-Handlebars for my view engine. This is what parses my views so I can use the variables that are inside curly braces like `{{variable}}` as well as the helpers like `{{# each}}` for looping in the view.
+- Passport for User Creation/Validation (bcrypt-nodejs for password encryption)
 
 ![Rush00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Rush00.png?raw=true)
 
