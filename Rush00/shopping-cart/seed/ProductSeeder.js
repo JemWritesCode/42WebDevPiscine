@@ -16,7 +16,7 @@ var products = [
 		imagepath: 'https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Images/puppy-1502565_1920.jpg?raw=true',
 		title: 'Dog Food',
 		description: 'Keeps Doggos Fed and Happy',
-		price: 10,
+		price: 10,ew
 		categoryTags: ['pets']
 	}),
 	new Product({

@@ -31,7 +31,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(validator()); // must be after bodyparser because it validates the body
 app.use(cookieParser());
-app.use(session({
+app.use(session({ 
 	secret: 'mysupersecret', 
 	resave: false, 
 	saveUninitialized: false,
