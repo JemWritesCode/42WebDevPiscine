@@ -15,7 +15,7 @@
         <a class="btn btn-outline-secondary" href="/user/signin" role="button"><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;Login</a> &nbsp;&nbsp;
         <a class="btn btn-outline-success" href="/user/register" role="button"><i class="fas fa-user-plus"></i>&nbsp;&nbsp;Register</a> &nbsp;&nbsp;
       {{/if}}
-        <a class="btn btn-outline-primary" href="/user/register" role="button"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Shopping Cart</a>
+        <a class="btn btn-outline-primary" href="/shopping-cart/" role="button"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Shopping Cart&nbsp;&nbsp;<span class="badge badge-primary badge-pill">{{session.cart.totalQty}}</span></a>
     </form>
   </div>
 </nav>
