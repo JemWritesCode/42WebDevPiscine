@@ -1,10 +1,13 @@
+{{# if products}}
 <div class="row">
 	<div class = "col-sm-6 col-md-6 col-md-ffset-3 col-sm-offset-3">
+		<p><p>
 		<ul class="list-group">
+			{{# each products }}
 			<li class="list-group-item">
-				<span class="badge badge-secondary badge-pill">2</span>
-				<strong>Title</strong>
-				<span class="label label-success">$12</span>
+				<span class="badge badge-secondary badge-pill">{{this.qty}}</span>
+				<strong>&nbsp;{{this.item.title}}</strong>
+				<span class="label label-success">${{this.price}}</span>
 				<div class="btn-group">
 					<button class="btn btn-primary btn-xsw dropdown-toggle" type="button" data-toggle="dropdown">Action<span class="caret dropdown-toggle-split"></span></button>
 					<ul class="dropdown-menu">
@@ -13,12 +16,14 @@
 					</ul>
 				</div>
 			</li>
+			{{/each}}
 		</ul>
 	</div>
 </div>
+<p><hr>
 <div class="row">
-	<div class = "col-sm-6 col-md-6 col-md-ffset-3 col-sm-offset-3">
-		<strong>Total: </strong>
+	<div class = "col-sm-6 col-md-6 col-md-ffset-3 col-sm-offset-3"><p>
+		<strong>Total: ${{totalPrice}} </strong>
 	</div>
 </div> 
 <hr>
@@ -27,8 +32,10 @@
 		<button class="btn btn-success" type="button">Checkout</button>
 	</div>
 </div>
-<div class="row">
+{{ else }}
+	<div class="row">
 	<div class = "col-sm-6 col-md-6 col-md-ffset-3 col-sm-offset-3">
 		<h2>No Items in Cart</h2>
 	</div>
 </div> 
+{{/if}}
