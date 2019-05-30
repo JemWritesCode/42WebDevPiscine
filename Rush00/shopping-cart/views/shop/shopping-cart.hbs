@@ -5,16 +5,26 @@
 		<ul class="list-group">
 			{{# each products }}
 			<li class="list-group-item">
-				<span class="badge badge-secondary badge-pill">{{this.qty}}</span>
-				<strong>&nbsp;{{this.item.title}}</strong>
-				<span class="label label-success">${{this.price}}</span>
-				<div class="btn-group">
-					<button class="btn btn-primary btn-xsw dropdown-toggle" type="button" data-toggle="dropdown">Action<span class="caret dropdown-toggle-split"></span></button>
-					<ul class="dropdown-menu">
-						<li><a class="ml-3" href="#">Reduce by 1</a></li>
-						<li><a class="ml-3" href="#">Remove All</a></li>
-					</ul>
-				</div>
+			<div class="row">
+				<div class="input-group input-group-sm col-sm-4">
+					<div class="input-group-prepend">
+						<button type="button" class="btn btn-danger btn-number btn-sm"  data-type="minus" data-field="quant[2]">
+							 <i class="fas fa-minus"></i>
+						</button>
+					</div>
+					<input type="text" name="quant[2]" class="form-control input-number" value="{{this.qty}}" min="1" max="100">
+			        <div class="input-group-append">
+			            <button type="button" class="btn btn-success btn-number btn-sm" data-type="plus" data-field="quant[2]">
+			                <i class="fas fa-plus"></i>
+			            </button>
+			        </div>
+			    </div>
+				<strong class="col-sm-4">&nbsp;{{this.item.title}}&nbsp;</strong>
+				<span class="label label-success col-sm-3">${{this.price}}</span>
+				<button type="button" class="btn btn-danger btn-number btn-sm float-right"  data-type="minus" data-field="quant[2]">
+					<i class="fas fa-trash-alt"></i>
+				</button>
+			</div>
 			</li>
 			{{/each}}
 		</ul>
