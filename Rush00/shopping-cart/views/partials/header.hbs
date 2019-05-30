@@ -9,6 +9,8 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       {{# if login}}
+       <!-- TODO Add Admin Check -->
+        <a class="btn btn-outline-warning" href="/user/admin" role="button"><i class="fas fa-toolbox"></i>&nbsp;&nbsp;Admin Tools</a> &nbsp;&nbsp;
         <a class="btn btn-outline-secondary" href="/user/profile" role="button"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Profile</a> &nbsp;&nbsp;
         <a class="btn btn-outline-danger" href="/user/logout" role="button"><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;Logout</a> &nbsp;&nbsp;
       {{else}}

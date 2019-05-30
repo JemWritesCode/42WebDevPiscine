@@ -10,6 +10,10 @@ router.get('/profile', isLoggedIn, function(req, res, next){ //isLoggedIn should
 	res.render('user/profile');
 });
 
+router.get('/admin', isLoggedIn, function(req, res, next){ //isLoggedIn should just be reference to the function, not execute it. 
+	res.render('user/admin');
+});
+
 router.get('/logout', isLoggedIn, function(req, res, next){
 	req.logout();
 	res.redirect('/');

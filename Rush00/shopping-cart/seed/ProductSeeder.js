@@ -15,14 +15,14 @@ var products = [
 	new Product({
 		imagepath: 'https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Images/puppy-1502565_1920.jpg?raw=true',
 		title: 'Dog Food',
-		description: 'Keeps Doggos Fed and Happy',
+		description: 'Premium food for the best dogs.',
 		price: 10,
 		categoryTags: ['pets']
 	}),
 	new Product({
 		imagepath: 'https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Images/animal-3174290_1920.jpg?raw=true',
 		title: 'Bird Food',
-		description: 'This is delicious, quoth the raven evermore',
+		description: 'Will keep birds singing!',
 		price: 5,
 		categoryTags: ['pets']
 	}), 
@@ -63,8 +63,8 @@ var products = [
 	}), 
 	new Product({
 		imagepath: 'https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Images/couch-2590993_1920.jpg?raw=true',
-		title: 'Moar Jeans',
-		description: 'Also comfortable and durable, but now with 100% more dog.',
+		title: 'Skinny Jeans',
+		description: 'Also comfortable and durable, but skinny.',
 		price: 40,
 		categoryTags: ['clothing']
 	}), 
