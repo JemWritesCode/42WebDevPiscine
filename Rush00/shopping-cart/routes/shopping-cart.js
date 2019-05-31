@@ -1,4 +1,4 @@
-// I think I'm somewhat using this incorrectly.
+// I think I'm somewhat using this incorrectly. not doing anything atm. 
 
 var express = require('express');
 var router = express.Router();

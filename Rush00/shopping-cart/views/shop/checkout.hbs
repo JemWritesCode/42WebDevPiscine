@@ -4,7 +4,7 @@
     <div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
         <h1>Checkout</h1>
         <h4>Your Total: ${{total}}</h4>
-        <form action="/charge" method="post" id="payment-form">
+        <form action="/charge/" method="post" id="payment-form">
           <div class="form-row">
             <label for="card-element">
               Credit Card or Debit Card Accepted
@@ -12,7 +12,6 @@
             <div class="form-control" id="card-element">
               <!-- A Stripe Element will be inserted here. -->
             </div>
-
             <!-- Used to display Element errors. -->
             <div class="col-md-12" id="card-errors" role="alert"></div>
           </div>
