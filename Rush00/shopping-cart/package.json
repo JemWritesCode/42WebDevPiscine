@@ -21,6 +21,10 @@
     "mongoose": "^5.5.9",
     "morgan": "~1.9.0",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-stripe-elements": "^3.0.0",
+    "stripe": "^7.1.0"
   }
 }

@@ -12,7 +12,6 @@ var validator = require('express-validator');
 var MongoStore = require('connect-mongo')(session); // this package must come after the session that I'm passing into it (express-session)
 
 
-
 var indexRouter = require('./routes/index');
 var userRoutes = require('./routes/user');
 var cartRoutes = require('./routes/shopping-cart');
