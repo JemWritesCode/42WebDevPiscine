@@ -98,11 +98,24 @@ Express is used for the server framework. I chose it because it's part of the po
 The [NodeJS / Express / MongoDB - Build a Shopping Cart tutorial series by Acedemind on ](https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp) was really helpful and was a good stepping stone to learning MERN. It's not exactly the same as the school project, but it gets you close enough. This project normally has a partner but I did this solo. I ended up moving my database over to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) so instead of trying to host your database on the school computers it can be in the cloud. Just set your connection string to the one you get from MongoDB Atlas instead of the one mentioned in the tutorial.
 
 I used:
-- Express for my web server framework
-- Bootstrap for styling so that it would look nice without too much work. (Card components for inventory items, Navbar component)
+- Express for my web server framework. Controls the router.
+- Express-session to store my session information. It stores the sessionID in the browser, and the items in the cart in MongoDB.
+- Bootstrap for styling so that it would look nice without too much work and be responsive to screen size. (Card components for inventory items, Navbar component) Tip: Look at the components part of the bootstrap documentation and learn how to use them to quickly style your websites. 
 - Mongoose to connect to my MongoDB.
 - Express-Handlebars for my view engine. This is what parses my views so I can use the variables that are inside curly braces like `{{variable}}` as well as the helpers like `{{# each}}` for looping in the view.
 - Passport for User Creation/Validation (bcrypt-nodejs for password encryption)
+- connect-mongo for session storage.
+
+
+Bonuses:
+- Bootstrap is used extensively for a responsive, beautiful, and consistent UI.
+- Font Awesome Icons are used throughout to create a more intuative interface.
+- Advanced User Information (Users can fill out their profile)
+- Password encryption with bcrypt
+- Stripe Integration
+- Sales Report
+- Stock Management
+- Delete All Users/Products
 
 ![Rush00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Rush00.png?raw=true)
 

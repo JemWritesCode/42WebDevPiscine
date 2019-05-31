@@ -44,6 +44,10 @@ router.get('/charge', function(req, res, next){
 	res.render('shop/charge');
 });
 
+router.post('/charge', function(req, res, next){
+	res.render('shop/charge');
+});
+
 router.get('/checkout', function(req, res, next){
 	if(!req.session.cart){
 		return res.redirect('/shopping-cart');
