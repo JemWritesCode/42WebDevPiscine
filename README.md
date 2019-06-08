@@ -26,7 +26,7 @@ Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Mat
 [Day05](#day05)
 
 
-## Day00: [up](#table-of-contents)
+## Day00: 
 [Day00 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/d00.en.pdf)
 
 
@@ -58,7 +58,7 @@ Making the game work -- the actions on the left and the items on the right can b
 [Click HERE to try out the game](https://htmlpreview.github.io/?https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/TurnedInFiles/ex05/scumm.html)
 ![ex05](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/ex05.png?raw=true)
 
-## Day01
+## Day01 [up ▲](#table-of-contents)
 [Day01 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/d01.en.pdf)
 
 #### Ex00:
