@@ -91,6 +91,7 @@ Note per the PDF's example only the first param is rotated and printed.
 #### Ex08:
 ![ex08](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex08.png?raw=true)
 #### Ex09:
+There's probably a more eloquent way to write sort rules but seperating into alpha, symbol, and numeric arrays was a fast solution.
 ![ex09](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex09.png?raw=true)
 
 ## Day02
