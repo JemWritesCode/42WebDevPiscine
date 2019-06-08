@@ -98,6 +98,9 @@ When using the * operator you need to wrap it in quotes like `"*"` to avoid the 
 ![ex10](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex10.png?raw=true)
 #### Ex11:
 ![ex11](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex11.png?raw=true)
+#### Ex12:
+I put the pairs into a JSON object so I could easily call on it.
+![ex12](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex12.png?raw=true)
 
 ## Day02
 [up ▲](#table-of-contents)
