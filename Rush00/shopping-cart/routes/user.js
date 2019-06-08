@@ -45,8 +45,6 @@ router.post('/signin', passport.authenticate('local.signin', {
 	failureFlash: true
 }));
 
-
-
 module.exports = router;
 
 function isLoggedIn(req, res, next){
