@@ -152,7 +152,7 @@ Bonuses:
 
 ![Rush00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Rush00.png?raw=true)
 
-## Day05,06, ...
+## Day05
 [up ▲](#table-of-contents)
 
 I had to stop after the Rush because I had work. I will say for Day06 you're supposed to write code that passes php unit tests -- for those doing NodeJS it may be best to skip this day or do it ahead of time so you can write your own tests. Or just do this in php.
