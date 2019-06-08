@@ -63,6 +63,7 @@ Use RegEx and you can make the function 1 line.
 #### Ex06:
 ![ex06](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex06.png?raw=true)
 #### Ex07:
+Note per the PDF's example only the first param is rotated and printed.
 ![ex07](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex07.png?raw=true)
 
 ## Day02
