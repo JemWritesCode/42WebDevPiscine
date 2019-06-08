@@ -9,9 +9,28 @@ Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Mat
 
 2.) If you're doing this piscine in Node.js I recommend getting some of the material done ahead of time-- Node.js is great for medium-large projects but sometimes something small in PHP can take a while to spin up in Node.js.
 
-3.) For 42 students, the main thing with running MongoDB is the dbpath has to be set to the goinfre folder so that the datbase files are saved to that specific computer. But this also means your db files would only be saved on that computer. I recommend using [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) free tier so your database is in the cloud instead. 
+3.) For 42 students, the main thing with running MongoDB is the dbpath has to be set to the goinfre folder so that the datbase files are saved to that specific computer. But this also means your db files would only be saved on that computer. I recommend using [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) free tier so your database is in the cloud instead.
 
-## Day00:
+## Table of Contents
+
+[Day00](#day00)
+
+[Day01](#day01)
+
+[Day02](#day02)
+
+[Day03](#day03)
+
+[Day04](#day04)
+
+[Rush00](#rush00)
+
+[Day05](#day05)
+
+
+## Day00: 
+[up ▲](#table-of-contents)
+
 [Day00 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/d00.en.pdf)
 
 
@@ -40,10 +59,14 @@ I suppose one simply adds a dropdown.
 
 #### Ex05:
 Making the game work -- the actions on the left and the items on the right can be used on things in the image maps in the middle.
-[Click HERE to try out the game](https://htmlpreview.github.io/?https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/TurnedInFiles/ex05/scumm.html)
+
+## [🎮Click HERE to try out the game 🎮](https://htmlpreview.github.io/?https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/TurnedInFiles/ex05/scumm.html)
+
 ![ex05](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/ExplainationImages/ex05.png?raw=true)
 
 ## Day01
+[up ▲](#table-of-contents)
+
 [Day01 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/d01.en.pdf)
 
 #### Ex00:
@@ -65,8 +88,15 @@ Use RegEx and you can make the function 1 line. Uncomment the code to test.
 #### Ex07:
 Note per the PDF's example only the first param is rotated and printed.
 ![ex07](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex07.png?raw=true)
+#### Ex08:
+![ex08](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex08.png?raw=true)
+#### Ex09:
+There's probably a more eloquent way to write sort rules but seperating into alpha, symbol, and numeric arrays was a fast solution.
+![ex09](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex09.png?raw=true)
 
 ## Day02
+[up ▲](#table-of-contents)
+
 The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/d02.en.pdf) on this day is in a crazy Myst style story format! 
 #### Ex00:
 
@@ -85,14 +115,20 @@ The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/mast
 
 
 ## Day03
+[up ▲](#table-of-contents)
+
 [Day03 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day03/d03.en.pdf)
 Didn't really have time to work on this much this day
 
 ## Day04
+[up ▲](#table-of-contents)
+
 Code doesn't work, I decided to start watching some more beginner Node.js videos as well.
 Express is used for the server framework. I chose it because it's part of the popular MERN stack that I want to learn.
 
 ## Rush00
+[up ▲](#table-of-contents)
+
 [Rush00 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/rush00.en.pdf)
 
 The [NodeJS / Express / MongoDB - Build a Shopping Cart tutorial series by Acedemind on ](https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp) was really helpful and was a good stepping stone to learning MERN. It's not exactly the same as the school project, but it gets you close enough. This project normally has a partner but I did this solo. I ended up moving my database over to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) so instead of trying to host your database on the school computers it can be in the cloud. Just set your connection string to the one you get from MongoDB Atlas instead of the one mentioned in the tutorial.
@@ -119,5 +155,7 @@ Bonuses:
 
 ![Rush00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Rush00.png?raw=true)
 
-## Day05,06, ...
+## Day05
+[up ▲](#table-of-contents)
+
 I had to stop after the Rush because I had work. I will say for Day06 you're supposed to write code that passes php unit tests -- for those doing NodeJS it may be best to skip this day or do it ahead of time so you can write your own tests. Or just do this in php.
