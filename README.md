@@ -93,6 +93,9 @@ Note per the PDF's example only the first param is rotated and printed.
 #### Ex09:
 There's probably a more eloquent way to write sort rules but seperating into alpha, symbol, and numeric arrays was a fast solution.
 ![ex09](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex09.png?raw=true)
+#### Ex10:
+When using the * operator you need to wrap it in quotes like `"*"` to avoid the shell using it as a wildcard. 
+![ex10](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex10.png?raw=true)
 
 ## Day02
 [up ▲](#table-of-contents)
