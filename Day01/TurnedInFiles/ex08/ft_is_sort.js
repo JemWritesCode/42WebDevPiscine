@@ -8,7 +8,6 @@ function ft_is_sort(myArray){
 
 /* // Testing Main
  
-
 // Should say sorted.
 var arr = ["!/@#;^", "42", "Hello World", "hi", "zZzZzZz"];
 if (ft_is_sort(arr))
