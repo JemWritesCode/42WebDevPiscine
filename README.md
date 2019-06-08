@@ -11,10 +11,19 @@ Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Mat
 
 3.) For 42 students, the main thing with running MongoDB is the dbpath has to be set to the goinfre folder so that the datbase files are saved to that specific computer. But this also means your db files would only be saved on that computer. I recommend using [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) free tier so your database is in the cloud instead.
 
-Index:
+## Table of Contents
 
 [Day00](#day00)
+
 [Day01](#day01)
+
+[Day02](#day02)
+
+[Day03](#day03)
+
+[Day04](#day04)
+
+[Day05](#day05)
 
 
 ## Day00:
