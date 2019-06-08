@@ -97,7 +97,6 @@ There's probably a more eloquent way to write sort rules but seperating into alp
 When using the * operator you need to wrap it in quotes like `"*"` to avoid the shell using it as a wildcard. 
 ![ex10](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex10.png?raw=true)
 #### Ex11:
-When using the * operator you need to wrap it in quotes like `"*"` to avoid the shell using it as a wildcard. 
 ![ex11](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex11.png?raw=true)
 
 ## Day02
