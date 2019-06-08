@@ -5,7 +5,7 @@ Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Mat
 
 #### Tips:
 
-1.) Make sure MySQL is installed for Day05. I was also thinking of learning AWS for Day05 but there's a 24hr cooldown period for student accounts so if you're interested in that sign up for an AWS account ASAP. (I ended up using MongoDB Atlas instead.)
+1.) Make sure MySQL is installed for Day05. I was also thinking of learning AWS for Day05 but there's a 24hr cooldown period for student accounts so if you're interested in that sign up for an AWS account ASAP.
 
 2.) If you're doing this piscine in Node.js I recommend getting some of the material done ahead of time-- Node.js is great for medium-large projects but sometimes something small in PHP can take a while to spin up in Node.js.
 
@@ -93,6 +93,9 @@ Note per the PDF's example only the first param is rotated and printed.
 #### Ex09:
 There's probably a more eloquent way to write sort rules but seperating into alpha, symbol, and numeric arrays was a fast solution.
 ![ex09](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex09.png?raw=true)
+#### Ex10:
+When using the * operator you need to wrap it in quotes like `"*"` to avoid the shell using it as a wildcard. 
+![ex10](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex10.png?raw=true)
 
 ## Day02
 [up ▲](#table-of-contents)
