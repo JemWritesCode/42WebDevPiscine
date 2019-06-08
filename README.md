@@ -27,6 +27,8 @@ Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Mat
 
 
 ## Day00: 
+[up ▲](#table-of-contents)
+
 [Day00 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/d00.en.pdf)
 
 
@@ -60,6 +62,7 @@ Making the game work -- the actions on the left and the items on the right can b
 
 ## Day01
 [up ▲](#table-of-contents)
+
 [Day01 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/d01.en.pdf)
 
 #### Ex00:
@@ -87,6 +90,8 @@ Note per the PDF's example only the first param is rotated and printed.
 ![ex09](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex09.png?raw=true)
 
 ## Day02
+[up ▲](#table-of-contents)
+
 The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/d02.en.pdf) on this day is in a crazy Myst style story format! 
 #### Ex00:
 
@@ -105,10 +110,14 @@ The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/mast
 
 
 ## Day03
+[up ▲](#table-of-contents)
+
 [Day03 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day03/d03.en.pdf)
 Didn't really have time to work on this much this day
 
 ## Day04
+[up ▲](#table-of-contents)
+
 Code doesn't work, I decided to start watching some more beginner Node.js videos as well.
 Express is used for the server framework. I chose it because it's part of the popular MERN stack that I want to learn.
 
@@ -140,4 +149,6 @@ Bonuses:
 ![Rush00](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/Rush00.png?raw=true)
 
 ## Day05,06, ...
+[up ▲](#table-of-contents)
+
 I had to stop after the Rush because I had work. I will say for Day06 you're supposed to write code that passes php unit tests -- for those doing NodeJS it may be best to skip this day or do it ahead of time so you can write your own tests. Or just do this in php.
