@@ -1,5 +1,6 @@
-if (process.argv.length > 2){ // 0 is node, 1 is agent_stats.js. Make sure we're getting a command.
-    var evaluations = [];
+var evaluations = [];
+
+function readAndCreateObjectArray(){
     function scoreObject(user, score, grader, feedback) {
         this.user = user;
         this.score = score;
@@ -26,7 +27,31 @@ if (process.argv.length > 2){ // 0 is node, 1 is agent_stats.js. Make sure we're
         }
     });
     
+    /*Print the evaluations array of ScoreObjects.*/
     rl.on('close', function () {
         console.dir(evaluations, {'maxArrayLength': null} );
     });
+}
+
+function averageGrades(){
+  var usersScores = [];
+  for(var i=0; i<evaluations.length; i++) {
+    for(user in evaluations[i]) {
+      if(evaluations[i][key].indexOf(toSearch)!=-1) {
+        usersScores.push(evaluations[i]);
+      }
+    }
+  }
+  console.log("here we go");
+}
+
+if (process.argv.length > 2){ // 1 is node, 2 is agent_stats.js. (argv.length is 1-indexed)
+  readAndCreateObjectArray();
+  if (process.argv[2] == "average" || process.argv[2] == "moyenne"){
+    averageGrades();
+  } else if(process.argv[2] == "average_user" || process.argv[2] == "moyenne_user"){
+
+  } else if(process.argv[2] == "moulinette_variance" || process.argv[2] == "ecart_moulinette"){
+
+  }
 }
