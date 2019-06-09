@@ -16,14 +16,17 @@ if (process.argv.length > 2){ // 0 is node, 1 is agent_stats.js. Make sure we're
       terminal: false
     });
     
+    var linecounter = 0;
     rl.on('line', function (line) {
-        temp = line.split(";");
-        var currentScore = new scoreObject(temp[0], temp[1], temp[2], temp[3]);
-        evaluations.push(currentScore);
+        linecounter++;
+        if (linecounter > 1){
+          temp = line.split(";");
+          var currentScore = new scoreObject(temp[0], temp[1], temp[2], temp[3]);
+          evaluations.push(currentScore);
+        }
     });
-
+    
     rl.on('close', function () {
         console.dir(evaluations, {'maxArrayLength': null} );
     });
 }
-
