@@ -3,11 +3,11 @@ My projects for the [42 Silicon Valley](https://www.42.us.org/)'s web developmen
 
 Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Material, but I chose to learn Node.js because it's in much higher demand.
 
-#### Tips:
+#### Tips for 42 Students:
 
-1.) Make sure MySQL is installed for Day05. I was also thinking of learning AWS for Day05 but there's a 24hr cooldown period for student accounts so if you're interested in that sign up for an AWS account ASAP.
+1.) If you're doing this piscine in Node.js I recommend getting some of the material done ahead of time-- Node.js is great for medium-large projects but sometimes something small in PHP can take a while to spin up in Node.js. Keep in mind the piscine is not made for NodeJS. It would be pretty helpful to be familiar with Javascript  -- but the syntax is fairly similar to C syntax-wise. You'll have to learn about asynchronous programming (that just means things don't wait, it keeps running) and callback functions. 
 
-2.) If you're doing this piscine in Node.js I recommend getting some of the material done ahead of time-- Node.js is great for medium-large projects but sometimes something small in PHP can take a while to spin up in Node.js.
+2.) Make sure MySQL is installed for Day05. I was also thinking of learning AWS for Day05 but there's a 24hr cooldown period for student accounts so if you're interested in that sign up for an AWS account ASAP.
 
 3.) For 42 students, the main thing with running MongoDB is the dbpath has to be set to the goinfre folder so that the datbase files are saved to that specific computer. But this also means your db files would only be saved on that computer. I recommend using [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) free tier so your database is in the cloud instead.
 
