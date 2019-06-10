@@ -102,7 +102,7 @@ When using the * operator you need to wrap it in quotes like `"*"` to avoid the 
 I put the pairs into a JSON object so I could easily call on it.
 ![ex12](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex12.png?raw=true)
 #### Ex13:
-I store the info in objects and get the information out using [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+I store the info in objects and get the information out using [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries) Also there is a slight calculation difference in PHP vs Javascript. Using .toFixed(13) mostly makes it match.
 ![ex13](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex13.png?raw=true)
 
 ## Day02
