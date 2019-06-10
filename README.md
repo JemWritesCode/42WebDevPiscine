@@ -31,6 +31,8 @@ Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Mat
 ## Day00: 
 [up ▲](#table-of-contents)
 
+Day00 focuses mostly on HTML & CSS, though the last exercise gives you the chance to work on some Javascript. This day isn't really different for NodeJS people.
+
 [Day00 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day00/d00.en.pdf)
 
 
@@ -66,6 +68,8 @@ Making the game work -- the actions on the left and the items on the right can b
 
 ## Day01
 [up ▲](#table-of-contents)
+
+Day01 takes you into the basics of Node and Javascript. From printing to the screen to creating objects and searching through them.
 
 [Day01 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/d01.en.pdf)
 
@@ -108,7 +112,9 @@ I store the info in objects and get the information out using [Object.entries()]
 ## Day02
 [up ▲](#table-of-contents)
 
-The [Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/d02.en.pdf) on this day is in a crazy Myst style story format! 
+[Day02 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/d02.en.pdf)
+
+Day02 focuses a lot on Regex. The instructions on this day are in a crazy Myst style story format! 
 #### Ex00:
 
 - Replace space(s) and tab(s) with a single space.
