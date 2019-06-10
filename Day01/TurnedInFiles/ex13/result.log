@@ -1,932 +1,930 @@
-[
-  'adam_e;0;roxane_e;5',
-  'adam_e;12;howard_s;0',
-  'adam_e;16;joseph_c;3',
-  'adam_e;17;dexter_m;2',
-  'adam_e;17;john_w;1',
-  'adam_e;19;jean_t;3',
-  'adam_e;19;marcel_j;0',
-  'adam_e;1;francois_h;0',
-  'adam_e;2;adam_e;5',
-  'adam_e;2;laurent_g;4',
-  'adam_e;4;clark_k;3',
-  'adam_e;4;leo_g;2',
-  'adam_e;6;hans_z;5',
-  'adam_e;6;moulinette;0',
-  'adam_e;8;melissa_v;4',
-  'adam_e;9;bertrand_y;4',
-  'adam_e;9;maelle_m;3',
-  'adam_e;9;marie_c;0',
-  'adam_e;9;olivier_z;2',
-  'adam_e;;bruce_w;',
-  'adam_e;;david_a;',
-  'adam_e;;didier_f;',
-  'adam_e;;georges_b;',
-  'adam_e;;lois_l;',
-  'adam_e;;ludovic_k;',
-  'adam_e;;mathieu_c;',
-  'adam_e;;michel_r;',
-  'adam_e;;nicolas_s;',
-  'adam_e;;sandra_n;',
-  'adam_e;;steve_j;',
-  'adam_e;;trevor_r;',
-  'bertrand_y;11;mathieu_c;0',
-  'bertrand_y;12;olivier_z;4',
-  'bertrand_y;12;roxane_e;1',
-  'bertrand_y;12;steve_j;2',
-  'bertrand_y;14;adam_e;1',
-  'bertrand_y;15;michel_r;1',
-  'bertrand_y;16;maelle_m;1',
-  'bertrand_y;17;georges_b;2',
-  'bertrand_y;1;howard_s;4',
-  'bertrand_y;2;bruce_w;0',
-  'bertrand_y;2;jean_t;1',
-  'bertrand_y;2;marcel_j;2',
-  'bertrand_y;2;trevor_r;4',
-  'bertrand_y;3;sandra_n;4',
-  'bertrand_y;4;clark_k;3',
-  'bertrand_y;5;leo_g;0',
-  'bertrand_y;6;hans_z;1',
-  'bertrand_y;6;john_w;1',
-  'bertrand_y;9;david_a;5',
-  'bertrand_y;9;moulinette;4',
-  'bertrand_y;;bertrand_y;',
-  'bertrand_y;;dexter_m;',
-  'bertrand_y;;didier_f;',
-  'bertrand_y;;francois_h;',
-  'bertrand_y;;joseph_c;',
-  'bertrand_y;;laurent_g;',
-  'bertrand_y;;lois_l;',
-  'bertrand_y;;ludovic_k;',
-  'bertrand_y;;marie_c;',
-  'bertrand_y;;melissa_v;',
-  'bertrand_y;;nicolas_s;',
-  'bruce_w;0;bruce_w;0',
-  'bruce_w;0;jean_t;1',
-  'bruce_w;10;lois_l;5',
-  'bruce_w;11;hans_z;4',
-  'bruce_w;13;clark_k;5',
-  'bruce_w;15;joseph_c;1',
-  'bruce_w;16;adam_e;5',
-  'bruce_w;16;leo_g;4',
-  'bruce_w;18;roxane_e;5',
-  'bruce_w;18;steve_j;3',
-  'bruce_w;19;mathieu_c;4',
-  'bruce_w;19;moulinette;2',
-  'bruce_w;1;trevor_r;0',
-  'bruce_w;20;michel_r;5',
-  'bruce_w;2;didier_f;5',
-  'bruce_w;2;howard_s;4',
-  'bruce_w;3;melissa_v;2',
-  'bruce_w;4;olivier_z;0',
-  'bruce_w;6;john_w;4',
-  'bruce_w;6;ludovic_k;3',
-  'bruce_w;6;marcel_j;5',
-  'bruce_w;7;laurent_g;2',
-  'bruce_w;7;maelle_m;3',
-  'bruce_w;8;bertrand_y;5',
-  'bruce_w;;david_a;',
-  'bruce_w;;dexter_m;',
-  'bruce_w;;francois_h;',
-  'bruce_w;;georges_b;',
-  'bruce_w;;marie_c;',
-  'bruce_w;;nicolas_s;',
-  'bruce_w;;sandra_n;',
-  'clark_k;0;sandra_n;4',
-  'clark_k;10;francois_h;5',
-  'clark_k;10;moulinette;0',
-  'clark_k;11;dexter_m;2',
-  'clark_k;12;lois_l;2',
-  'clark_k;12;michel_r;2',
-  'clark_k;13;howard_s;4',
-  'clark_k;13;ludovic_k;4',
-  'clark_k;14;mathieu_c;4',
-  'clark_k;17;david_a;3',
-  'clark_k;17;jean_t;1',
-  'clark_k;17;joseph_c;0',
-  'clark_k;18;georges_b;4',
-  'clark_k;18;olivier_z;1',
-  'clark_k;18;trevor_r;4',
-  'clark_k;19;bruce_w;2',
-  'clark_k;1;adam_e;5',
-  'clark_k;20;laurent_g;0',
-  'clark_k;20;nicolas_s;0',
-  'clark_k;2;didier_f;4',
-  'clark_k;2;hans_z;4',
-  'clark_k;2;leo_g;4',
-  'clark_k;2;roxane_e;1',
-  'clark_k;3;clark_k;1',
-  'clark_k;5;maelle_m;5',
-  'clark_k;5;marie_c;5',
-  'clark_k;6;melissa_v;5',
-  'clark_k;7;john_w;4',
-  'clark_k;9;marcel_j;4',
-  'clark_k;;bertrand_y;',
-  'clark_k;;steve_j;',
-  'david_a;0;david_a;5',
-  'david_a;0;john_w;3',
-  'david_a;0;melissa_v;2',
-  'david_a;10;adam_e;2',
-  'david_a;10;clark_k;1',
-  'david_a;10;maelle_m;5',
-  'david_a;12;jean_t;2',
-  'david_a;13;mathieu_c;1',
-  'david_a;15;leo_g;2',
-  'david_a;16;dexter_m;2',
-  'david_a;16;moulinette;5',
-  'david_a;18;trevor_r;2',
-  'david_a;19;sandra_n;5',
-  'david_a;1;bertrand_y;0',
-  'david_a;20;hans_z;3',
-  'david_a;2;olivier_z;0',
-  'david_a;3;bruce_w;4',
-  'david_a;5;michel_r;5',
-  'david_a;6;marie_c;5',
-  'david_a;7;laurent_g;5',
-  'david_a;8;didier_f;1',
-  'david_a;8;ludovic_k;0',
-  'david_a;8;marcel_j;1',
-  'david_a;8;roxane_e;1',
-  'david_a;9;howard_s;2',
-  'david_a;9;joseph_c;2',
-  'david_a;;francois_h;',
-  'david_a;;georges_b;',
-  'david_a;;lois_l;',
-  'david_a;;nicolas_s;',
-  'david_a;;steve_j;',
-  'dexter_m;0;steve_j;5',
-  'dexter_m;10;howard_s;1',
-  'dexter_m;10;roxane_e;5',
-  'dexter_m;12;marie_c;4',
-  'dexter_m;13;bruce_w;3',
-  'dexter_m;15;melissa_v;3',
-  'dexter_m;17;didier_f;5',
-  'dexter_m;17;jean_t;5',
-  'dexter_m;18;francois_h;3',
-  'dexter_m;18;laurent_g;0',
-  'dexter_m;2;nicolas_s;4',
-  'dexter_m;3;bertrand_y;1',
-  'dexter_m;3;lois_l;5',
-  'dexter_m;4;joseph_c;0',
-  'dexter_m;4;maelle_m;0',
-  'dexter_m;4;trevor_r;5',
-  'dexter_m;6;olivier_z;1',
-  'dexter_m;7;hans_z;0',
-  'dexter_m;7;leo_g;0',
-  'dexter_m;7;moulinette;5',
-  'dexter_m;8;marcel_j;3',
-  'dexter_m;;adam_e;',
-  'dexter_m;;clark_k;',
-  'dexter_m;;david_a;',
-  'dexter_m;;dexter_m;',
-  'dexter_m;;georges_b;',
-  'dexter_m;;john_w;',
-  'dexter_m;;ludovic_k;',
-  'dexter_m;;mathieu_c;',
-  'dexter_m;;michel_r;',
-  'dexter_m;;sandra_n;',
-  'didier_f;10;clark_k;4',
-  'didier_f;10;mathieu_c;0',
-  'didier_f;12;moulinette;0',
-  'didier_f;16;dexter_m;1',
-  'didier_f;18;hans_z;5',
-  'didier_f;18;jean_t;5',
-  'didier_f;18;olivier_z;0',
-  'didier_f;19;didier_f;1',
-  'didier_f;19;joseph_c;0',
-  'didier_f;1;roxane_e;0',
-  'didier_f;20;ludovic_k;1',
-  'didier_f;2;leo_g;4',
-  'didier_f;3;adam_e;4',
-  'didier_f;6;lois_l;2',
-  'didier_f;6;marie_c;3',
-  'didier_f;7;francois_h;5',
-  'didier_f;8;nicolas_s;3',
-  'didier_f;;bertrand_y;',
-  'didier_f;;bruce_w;',
-  'didier_f;;david_a;',
-  'didier_f;;georges_b;',
-  'didier_f;;howard_s;',
-  'didier_f;;john_w;',
-  'didier_f;;laurent_g;',
-  'didier_f;;maelle_m;',
-  'didier_f;;marcel_j;',
-  'didier_f;;melissa_v;',
-  'didier_f;;michel_r;',
-  'didier_f;;sandra_n;',
-  'didier_f;;steve_j;',
-  'didier_f;;trevor_r;',
-  'francois_h;0;howard_s;0',
-  'francois_h;12;georges_b;0',
-  'francois_h;12;michel_r;4',
-  'francois_h;13;didier_f;1',
-  'francois_h;13;joseph_c;1',
-  'francois_h;13;mathieu_c;2',
-  'francois_h;13;moulinette;4',
-  'francois_h;14;clark_k;5',
-  'francois_h;15;laurent_g;3',
-  'francois_h;16;bertrand_y;1',
-  'francois_h;17;nicolas_s;2',
-  'francois_h;17;steve_j;3',
-  'francois_h;19;hans_z;1',
-  'francois_h;19;john_w;1',
-  'francois_h;20;leo_g;0',
-  'francois_h;20;trevor_r;0',
-  'francois_h;2;marcel_j;0',
-  'francois_h;5;bruce_w;5',
-  'francois_h;5;david_a;4',
-  'francois_h;9;francois_h;2',
-  'francois_h;;adam_e;',
-  'francois_h;;dexter_m;',
-  'francois_h;;jean_t;',
-  'francois_h;;lois_l;',
-  'francois_h;;ludovic_k;',
-  'francois_h;;maelle_m;',
-  'francois_h;;marie_c;',
-  'francois_h;;melissa_v;',
-  'francois_h;;olivier_z;',
-  'francois_h;;roxane_e;',
-  'francois_h;;sandra_n;',
-  'georges_b;0;john_w;3',
-  'georges_b;0;laurent_g;4',
-  'georges_b;11;bruce_w;5',
-  'georges_b;11;hans_z;1',
-  'georges_b;12;leo_g;3',
-  'georges_b;12;sandra_n;2',
-  'georges_b;13;dexter_m;5',
-  'georges_b;13;marie_c;2',
-  'georges_b;16;joseph_c;0',
-  'georges_b;16;mathieu_c;4',
-  'georges_b;16;steve_j;4',
-  'georges_b;17;marcel_j;5',
-  'georges_b;19;moulinette;4',
-  'georges_b;1;maelle_m;0',
-  'georges_b;5;trevor_r;2',
-  'georges_b;7;ludovic_k;0',
-  'georges_b;8;david_a;4',
-  'georges_b;8;lois_l;0',
-  'georges_b;9;adam_e;0',
-  'georges_b;9;bertrand_y;5',
-  'georges_b;9;clark_k;5',
-  'georges_b;;didier_f;',
-  'georges_b;;francois_h;',
-  'georges_b;;georges_b;',
-  'georges_b;;howard_s;',
-  'georges_b;;jean_t;',
-  'georges_b;;melissa_v;',
-  'georges_b;;michel_r;',
-  'georges_b;;nicolas_s;',
-  'georges_b;;olivier_z;',
-  'georges_b;;roxane_e;',
-  'hans_z;0;roxane_e;3',
-  'hans_z;13;mathieu_c;4',
-  'hans_z;14;francois_h;3',
-  'hans_z;15;hans_z;0',
-  'hans_z;16;marie_c;5',
-  'hans_z;17;nicolas_s;3',
-  'hans_z;19;bertrand_y;3',
-  'hans_z;19;clark_k;1',
-  'hans_z;1;lois_l;2',
-  'hans_z;20;bruce_w;3',
-  'hans_z;20;georges_b;2',
-  'hans_z;20;michel_r;1',
-  'hans_z;3;moulinette;4',
-  'hans_z;3;steve_j;5',
-  'hans_z;7;marcel_j;4',
-  'hans_z;7;olivier_z;5',
-  'hans_z;8;david_a;3',
-  'hans_z;;adam_e;',
-  'hans_z;;dexter_m;',
-  'hans_z;;didier_f;',
-  'hans_z;;howard_s;',
-  'hans_z;;jean_t;',
-  'hans_z;;john_w;',
-  'hans_z;;joseph_c;',
-  'hans_z;;laurent_g;',
-  'hans_z;;leo_g;',
-  'hans_z;;ludovic_k;',
-  'hans_z;;maelle_m;',
-  'hans_z;;melissa_v;',
-  'hans_z;;sandra_n;',
-  'hans_z;;trevor_r;',
-  'howard_s;0;david_a;0',
-  'howard_s;10;melissa_v;4',
-  'howard_s;11;clark_k;4',
-  'howard_s;12;marie_c;0',
-  'howard_s;14;lois_l;4',
-  'howard_s;16;michel_r;2',
-  'howard_s;17;didier_f;0',
-  'howard_s;17;hans_z;1',
-  'howard_s;19;olivier_z;3',
-  'howard_s;1;steve_j;4',
-  'howard_s;3;francois_h;1',
-  'howard_s;3;howard_s;3',
-  'howard_s;4;bruce_w;4',
-  'howard_s;4;nicolas_s;1',
-  'howard_s;6;bertrand_y;3',
-  'howard_s;6;jean_t;2',
-  'howard_s;7;john_w;3',
-  'howard_s;7;sandra_n;1',
-  'howard_s;8;ludovic_k;0',
-  'howard_s;9;moulinette;0',
-  'howard_s;;adam_e;',
-  'howard_s;;dexter_m;',
-  'howard_s;;georges_b;',
-  'howard_s;;joseph_c;',
-  'howard_s;;laurent_g;',
-  'howard_s;;leo_g;',
-  'howard_s;;maelle_m;',
-  'howard_s;;marcel_j;',
-  'howard_s;;mathieu_c;',
-  'howard_s;;roxane_e;',
-  'howard_s;;trevor_r;',
-  'jean_t;0;bruce_w;3',
-  'jean_t;0;nicolas_s;4',
-  'jean_t;10;moulinette;1',
-  'jean_t;10;olivier_z;2',
-  'jean_t;11;steve_j;2',
-  'jean_t;13;joseph_c;5',
-  'jean_t;16;dexter_m;1',
-  'jean_t;16;marie_c;5',
-  'jean_t;17;clark_k;4',
-  'jean_t;17;georges_b;0',
-  'jean_t;1;leo_g;4',
-  'jean_t;2;francois_h;3',
-  'jean_t;2;ludovic_k;2',
-  'jean_t;3;lois_l;1',
-  'jean_t;4;hans_z;4',
-  'jean_t;6;marcel_j;5',
-  'jean_t;7;howard_s;4',
-  'jean_t;8;roxane_e;2',
-  'jean_t;8;trevor_r;4',
-  'jean_t;;adam_e;',
-  'jean_t;;bertrand_y;',
-  'jean_t;;david_a;',
-  'jean_t;;didier_f;',
-  'jean_t;;jean_t;',
-  'jean_t;;john_w;',
-  'jean_t;;laurent_g;',
-  'jean_t;;maelle_m;',
-  'jean_t;;mathieu_c;',
-  'jean_t;;melissa_v;',
-  'jean_t;;michel_r;',
-  'jean_t;;sandra_n;',
-  'john_w;10;roxane_e;3',
-  'john_w;10;sandra_n;1',
-  'john_w;11;david_a;4',
-  'john_w;13;joseph_c;5',
-  'john_w;13;moulinette;4',
-  'john_w;15;ludovic_k;0',
-  'john_w;15;steve_j;4',
-  'john_w;15;trevor_r;4',
-  'john_w;16;hans_z;0',
-  'john_w;16;olivier_z;0',
-  'john_w;19;bertrand_y;2',
-  'john_w;1;leo_g;2',
-  'john_w;20;bruce_w;5',
-  'john_w;3;didier_f;2',
-  'john_w;4;marie_c;1',
-  'john_w;6;melissa_v;4',
-  'john_w;9;adam_e;2',
-  'john_w;9;clark_k;0',
-  'john_w;;dexter_m;',
-  'john_w;;francois_h;',
-  'john_w;;georges_b;',
-  'john_w;;howard_s;',
-  'john_w;;jean_t;',
-  'john_w;;john_w;',
-  'john_w;;laurent_g;',
-  'john_w;;lois_l;',
-  'john_w;;maelle_m;',
-  'john_w;;marcel_j;',
-  'john_w;;mathieu_c;',
-  'john_w;;michel_r;',
-  'john_w;;nicolas_s;',
-  'joseph_c;10;howard_s;2',
-  'joseph_c;11;mathieu_c;2',
-  'joseph_c;12;ludovic_k;5',
-  'joseph_c;12;moulinette;3',
-  'joseph_c;17;michel_r;3',
-  'joseph_c;18;joseph_c;3',
-  'joseph_c;20;clark_k;0',
-  'joseph_c;2;hans_z;5',
-  'joseph_c;2;laurent_g;4',
-  'joseph_c;3;olivier_z;0',
-  'joseph_c;4;roxane_e;5',
-  'joseph_c;5;trevor_r;2',
-  'joseph_c;6;marie_c;4',
-  'joseph_c;7;nicolas_s;4',
-  'joseph_c;8;john_w;1',
-  'joseph_c;9;leo_g;4',
-  'joseph_c;9;maelle_m;5',
-  'joseph_c;;adam_e;',
-  'joseph_c;;bertrand_y;',
-  'joseph_c;;bruce_w;',
-  'joseph_c;;david_a;',
-  'joseph_c;;dexter_m;',
-  'joseph_c;;didier_f;',
-  'joseph_c;;francois_h;',
-  'joseph_c;;georges_b;',
-  'joseph_c;;jean_t;',
-  'joseph_c;;lois_l;',
-  'joseph_c;;marcel_j;',
-  'joseph_c;;melissa_v;',
-  'joseph_c;;sandra_n;',
-  'joseph_c;;steve_j;',
-  'laurent_g;0;clark_k;3',
-  'laurent_g;12;dexter_m;5',
-  'laurent_g;13;john_w;1',
-  'laurent_g;13;melissa_v;0',
-  'laurent_g;14;georges_b;1',
-  'laurent_g;14;hans_z;0',
-  'laurent_g;14;sandra_n;4',
-  'laurent_g;16;marie_c;1',
-  'laurent_g;16;moulinette;4',
-  'laurent_g;19;david_a;0',
-  'laurent_g;20;leo_g;0',
-  'laurent_g;20;ludovic_k;0',
-  'laurent_g;20;trevor_r;5',
-  'laurent_g;2;laurent_g;1',
-  'laurent_g;5;bruce_w;3',
-  'laurent_g;5;francois_h;5',
-  'laurent_g;6;jean_t;2',
-  'laurent_g;9;howard_s;4',
-  'laurent_g;;adam_e;',
-  'laurent_g;;bertrand_y;',
-  'laurent_g;;didier_f;',
-  'laurent_g;;joseph_c;',
-  'laurent_g;;lois_l;',
-  'laurent_g;;maelle_m;',
-  'laurent_g;;marcel_j;',
-  'laurent_g;;mathieu_c;',
-  'laurent_g;;michel_r;',
-  'laurent_g;;nicolas_s;',
-  'laurent_g;;olivier_z;',
-  'laurent_g;;roxane_e;',
-  'laurent_g;;steve_j;',
-  'leo_g;0;john_w;2',
-  'leo_g;0;ludovic_k;4',
-  'leo_g;10;francois_h;5',
-  'leo_g;10;mathieu_c;1',
-  'leo_g;10;michel_r;3',
-  'leo_g;13;laurent_g;2',
-  'leo_g;15;adam_e;5',
-  'leo_g;15;marie_c;4',
-  'leo_g;16;georges_b;1',
-  'leo_g;16;olivier_z;5',
-  'leo_g;16;sandra_n;5',
-  'leo_g;18;david_a;4',
-  'leo_g;18;joseph_c;1',
-  'leo_g;1;bruce_w;4',
-  'leo_g;20;clark_k;5',
-  'leo_g;20;roxane_e;4',
-  'leo_g;2;didier_f;2',
-  'leo_g;2;hans_z;1',
-  'leo_g;6;marcel_j;5',
-  'leo_g;6;moulinette;3',
-  'leo_g;7;melissa_v;0',
-  'leo_g;7;nicolas_s;5',
-  'leo_g;7;steve_j;5',
-  'leo_g;8;jean_t;5',
-  'leo_g;9;maelle_m;0',
-  'leo_g;;bertrand_y;',
-  'leo_g;;dexter_m;',
-  'leo_g;;howard_s;',
-  'leo_g;;leo_g;',
-  'leo_g;;lois_l;',
-  'leo_g;;trevor_r;',
-  'lois_l;0;trevor_r;5',
-  'lois_l;12;bertrand_y;5',
-  'lois_l;14;jean_t;0',
-  'lois_l;15;adam_e;1',
-  'lois_l;15;maelle_m;5',
-  'lois_l;15;mathieu_c;2',
-  'lois_l;16;steve_j;4',
-  'lois_l;17;clark_k;0',
-  'lois_l;17;john_w;2',
-  'lois_l;17;marcel_j;0',
-  'lois_l;17;roxane_e;3',
-  'lois_l;19;didier_f;0',
-  'lois_l;19;georges_b;0',
-  'lois_l;1;leo_g;2',
-  'lois_l;1;nicolas_s;5',
-  'lois_l;20;bruce_w;1',
-  'lois_l;20;francois_h;4',
-  'lois_l;3;marie_c;4',
-  'lois_l;5;michel_r;3',
-  'lois_l;6;moulinette;2',
-  'lois_l;;david_a;',
-  'lois_l;;dexter_m;',
-  'lois_l;;hans_z;',
-  'lois_l;;howard_s;',
-  'lois_l;;joseph_c;',
-  'lois_l;;laurent_g;',
-  'lois_l;;lois_l;',
-  'lois_l;;ludovic_k;',
-  'lois_l;;melissa_v;',
-  'lois_l;;olivier_z;',
-  'lois_l;;sandra_n;',
-  'ludovic_k;10;maelle_m;0',
-  'ludovic_k;11;melissa_v;3',
-  'ludovic_k;11;trevor_r;5',
-  'ludovic_k;12;jean_t;3',
-  'ludovic_k;13;bertrand_y;3',
-  'ludovic_k;13;marie_c;1',
-  'ludovic_k;15;moulinette;0',
-  'ludovic_k;1;adam_e;3',
-  'ludovic_k;2;laurent_g;0',
-  'ludovic_k;3;hans_z;4',
-  'ludovic_k;4;joseph_c;4',
-  'ludovic_k;4;ludovic_k;5',
-  'ludovic_k;4;michel_r;5',
-  'ludovic_k;5;dexter_m;1',
-  'ludovic_k;6;marcel_j;2',
-  'ludovic_k;7;sandra_n;1',
-  'ludovic_k;8;clark_k;4',
-  'ludovic_k;8;david_a;3',
-  'ludovic_k;8;francois_h;3',
-  'ludovic_k;8;mathieu_c;3',
-  'ludovic_k;;bruce_w;',
-  'ludovic_k;;didier_f;',
-  'ludovic_k;;georges_b;',
-  'ludovic_k;;howard_s;',
-  'ludovic_k;;john_w;',
-  'ludovic_k;;leo_g;',
-  'ludovic_k;;lois_l;',
-  'ludovic_k;;nicolas_s;',
-  'ludovic_k;;olivier_z;',
-  'ludovic_k;;roxane_e;',
-  'ludovic_k;;steve_j;',
-  'maelle_m;0;dexter_m;2',
-  'maelle_m;0;marie_c;1',
-  'maelle_m;12;leo_g;3',
-  'maelle_m;13;maelle_m;5',
-  'maelle_m;14;john_w;1',
-  'maelle_m;15;georges_b;0',
-  'maelle_m;17;bertrand_y;5',
-  'maelle_m;18;moulinette;1',
-  'maelle_m;19;melissa_v;1',
-  'maelle_m;1;clark_k;4',
-  'maelle_m;1;roxane_e;5',
-  'maelle_m;3;francois_h;4',
-  'maelle_m;4;trevor_r;1',
-  'maelle_m;5;marcel_j;4',
-  'maelle_m;5;mathieu_c;2',
-  'maelle_m;6;nicolas_s;2',
-  'maelle_m;7;adam_e;4',
-  'maelle_m;7;michel_r;1',
-  'maelle_m;8;lois_l;0',
-  'maelle_m;9;joseph_c;5',
-  'maelle_m;;bruce_w;',
-  'maelle_m;;david_a;',
-  'maelle_m;;didier_f;',
-  'maelle_m;;hans_z;',
-  'maelle_m;;howard_s;',
-  'maelle_m;;jean_t;',
-  'maelle_m;;laurent_g;',
-  'maelle_m;;ludovic_k;',
-  'maelle_m;;olivier_z;',
-  'maelle_m;;sandra_n;',
-  'maelle_m;;steve_j;',
-  'marcel_j;0;roxane_e;0',
-  'marcel_j;10;trevor_r;5',
-  'marcel_j;11;laurent_g;4',
-  'marcel_j;11;michel_r;3',
-  'marcel_j;13;didier_f;4',
-  'marcel_j;14;joseph_c;0',
-  'marcel_j;15;lois_l;5',
-  'marcel_j;18;adam_e;0',
-  'marcel_j;18;ludovic_k;5',
-  'marcel_j;18;marie_c;0',
-  'marcel_j;19;maelle_m;1',
-  'marcel_j;20;francois_h;2',
-  'marcel_j;20;john_w;0',
-  'marcel_j;3;bruce_w;1',
-  'marcel_j;3;dexter_m;1',
-  'marcel_j;4;marcel_j;5',
-  'marcel_j;5;bertrand_y;3',
-  'marcel_j;5;leo_g;0',
-  'marcel_j;5;steve_j;0',
-  'marcel_j;7;moulinette;0',
-  'marcel_j;8;hans_z;5',
-  'marcel_j;9;clark_k;2',
-  'marcel_j;9;nicolas_s;0',
-  'marcel_j;;david_a;',
-  'marcel_j;;georges_b;',
-  'marcel_j;;howard_s;',
-  'marcel_j;;jean_t;',
-  'marcel_j;;mathieu_c;',
-  'marcel_j;;melissa_v;',
-  'marcel_j;;olivier_z;',
-  'marcel_j;;sandra_n;',
-  'marie_c;11;didier_f;2',
-  'marie_c;13;bruce_w;4',
-  'marie_c;14;francois_h;3',
-  'marie_c;14;maelle_m;5',
-  'marie_c;14;moulinette;1',
-  'marie_c;15;david_a;1',
-  'marie_c;18;marcel_j;0',
-  'marie_c;18;melissa_v;5',
-  'marie_c;19;bertrand_y;4',
-  'marie_c;19;leo_g;3',
-  'marie_c;1;steve_j;5',
-  'marie_c;2;jean_t;3',
-  'marie_c;2;mathieu_c;4',
-  'marie_c;2;sandra_n;5',
-  'marie_c;2;trevor_r;3',
-  'marie_c;3;clark_k;4',
-  'marie_c;5;nicolas_s;1',
-  'marie_c;6;adam_e;4',
-  'marie_c;8;georges_b;4',
-  'marie_c;8;hans_z;3',
-  'marie_c;8;howard_s;5',
-  'marie_c;8;joseph_c;5',
-  'marie_c;;dexter_m;',
-  'marie_c;;john_w;',
-  'marie_c;;laurent_g;',
-  'marie_c;;lois_l;',
-  'marie_c;;ludovic_k;',
-  'marie_c;;marie_c;',
-  'marie_c;;michel_r;',
-  'marie_c;;olivier_z;',
-  'marie_c;;roxane_e;',
-  'mathieu_c;0;bruce_w;1',
-  'mathieu_c;0;olivier_z;0',
-  'mathieu_c;10;adam_e;0',
-  'mathieu_c;10;francois_h;4',
-  'mathieu_c;10;sandra_n;0',
-  'mathieu_c;11;ludovic_k;1',
-  'mathieu_c;12;hans_z;4',
-  'mathieu_c;14;michel_r;0',
-  'mathieu_c;14;roxane_e;1',
-  'mathieu_c;15;bertrand_y;2',
-  'mathieu_c;15;clark_k;4',
-  'mathieu_c;15;maelle_m;0',
-  'mathieu_c;15;marie_c;0',
-  'mathieu_c;16;moulinette;1',
-  'mathieu_c;18;nicolas_s;0',
-  'mathieu_c;19;david_a;3',
-  'mathieu_c;19;mathieu_c;1',
-  'mathieu_c;1;joseph_c;1',
-  'mathieu_c;1;melissa_v;3',
-  'mathieu_c;2;laurent_g;2',
-  'mathieu_c;6;howard_s;5',
-  'mathieu_c;8;john_w;3',
-  'mathieu_c;8;trevor_r;4',
-  'mathieu_c;9;steve_j;3',
-  'mathieu_c;;dexter_m;',
-  'mathieu_c;;didier_f;',
-  'mathieu_c;;georges_b;',
-  'mathieu_c;;jean_t;',
-  'mathieu_c;;leo_g;',
-  'mathieu_c;;lois_l;',
-  'mathieu_c;;marcel_j;',
-  'melissa_v;10;clark_k;5',
-  'melissa_v;10;olivier_z;3',
-  'melissa_v;11;marcel_j;5',
-  'melissa_v;12;mathieu_c;1',
-  'melissa_v;13;francois_h;2',
-  'melissa_v;13;hans_z;1',
-  'melissa_v;15;steve_j;3',
-  'melissa_v;16;bruce_w;3',
-  'melissa_v;17;georges_b;3',
-  'melissa_v;19;marie_c;3',
-  'melissa_v;1;melissa_v;2',
-  'melissa_v;20;bertrand_y;1',
-  'melissa_v;3;maelle_m;3',
-  'melissa_v;3;moulinette;0',
-  'melissa_v;6;joseph_c;4',
-  'melissa_v;6;ludovic_k;3',
-  'melissa_v;6;sandra_n;4',
-  'melissa_v;6;trevor_r;5',
-  'melissa_v;7;howard_s;2',
-  'melissa_v;9;lois_l;1',
-  'melissa_v;;adam_e;',
-  'melissa_v;;david_a;',
-  'melissa_v;;dexter_m;',
-  'melissa_v;;didier_f;',
-  'melissa_v;;jean_t;',
-  'melissa_v;;john_w;',
-  'melissa_v;;laurent_g;',
-  'melissa_v;;leo_g;',
-  'melissa_v;;michel_r;',
-  'melissa_v;;nicolas_s;',
-  'melissa_v;;roxane_e;',
-  'michel_r;13;didier_f;2',
-  'michel_r;13;hans_z;5',
-  'michel_r;13;sandra_n;3',
-  'michel_r;15;steve_j;2',
-  'michel_r;16;jean_t;4',
-  'michel_r;18;francois_h;5',
-  'michel_r;18;marcel_j;3',
-  'michel_r;19;dexter_m;5',
-  'michel_r;20;maelle_m;4',
-  'michel_r;20;olivier_z;3',
-  'michel_r;3;mathieu_c;5',
-  'michel_r;5;georges_b;0',
-  'michel_r;5;moulinette;2',
-  'michel_r;9;michel_r;5',
-  'michel_r;;adam_e;',
-  'michel_r;;bertrand_y;',
-  'michel_r;;bruce_w;',
-  'michel_r;;clark_k;',
-  'michel_r;;david_a;',
-  'michel_r;;howard_s;',
-  'michel_r;;john_w;',
-  'michel_r;;joseph_c;',
-  'michel_r;;laurent_g;',
-  'michel_r;;leo_g;',
-  'michel_r;;lois_l;',
-  'michel_r;;ludovic_k;',
-  'michel_r;;marie_c;',
-  'michel_r;;melissa_v;',
-  'michel_r;;nicolas_s;',
-  'michel_r;;roxane_e;',
-  'michel_r;;trevor_r;',
-  'nicolas_s;0;adam_e;5',
-  'nicolas_s;0;georges_b;0',
-  'nicolas_s;10;didier_f;5',
-  'nicolas_s;11;hans_z;4',
-  'nicolas_s;11;joseph_c;0',
-  'nicolas_s;13;francois_h;1',
-  'nicolas_s;14;michel_r;2',
-  'nicolas_s;16;dexter_m;3',
-  'nicolas_s;16;nicolas_s;5',
-  'nicolas_s;18;moulinette;0',
-  'nicolas_s;1;melissa_v;4',
-  'nicolas_s;1;sandra_n;1',
-  'nicolas_s;2;steve_j;3',
-  'nicolas_s;2;trevor_r;1',
-  'nicolas_s;3;bertrand_y;3',
-  'nicolas_s;6;clark_k;0',
-  'nicolas_s;6;john_w;5',
-  'nicolas_s;7;leo_g;4',
-  'nicolas_s;8;bruce_w;1',
-  'nicolas_s;8;lois_l;0',
-  'nicolas_s;8;maelle_m;0',
-  'nicolas_s;9;ludovic_k;5',
-  'nicolas_s;9;mathieu_c;2',
-  'nicolas_s;;david_a;',
-  'nicolas_s;;howard_s;',
-  'nicolas_s;;jean_t;',
-  'nicolas_s;;laurent_g;',
-  'nicolas_s;;marcel_j;',
-  'nicolas_s;;marie_c;',
-  'nicolas_s;;olivier_z;',
-  'nicolas_s;;roxane_e;',
-  'olivier_z;10;steve_j;1',
-  'olivier_z;12;olivier_z;0',
-  'olivier_z;13;clark_k;1',
-  'olivier_z;13;john_w;2',
-  'olivier_z;13;sandra_n;0',
-  'olivier_z;15;marie_c;3',
-  'olivier_z;15;melissa_v;0',
-  'olivier_z;16;didier_f;1',
-  'olivier_z;18;david_a;0',
-  'olivier_z;18;mathieu_c;5',
-  'olivier_z;19;howard_s;2',
-  'olivier_z;19;joseph_c;3',
-  'olivier_z;19;ludovic_k;1',
-  'olivier_z;19;nicolas_s;5',
-  'olivier_z;20;michel_r;2',
-  'olivier_z;3;roxane_e;1',
-  'olivier_z;5;marcel_j;1',
-  'olivier_z;7;francois_h;3',
-  'olivier_z;8;bruce_w;0',
-  'olivier_z;8;georges_b;0',
-  'olivier_z;8;jean_t;2',
-  'olivier_z;8;lois_l;1',
-  'olivier_z;8;trevor_r;2',
-  'olivier_z;9;maelle_m;5',
-  'olivier_z;9;moulinette;0',
-  'olivier_z;;adam_e;',
-  'olivier_z;;bertrand_y;',
-  'olivier_z;;dexter_m;',
-  'olivier_z;;hans_z;',
-  'olivier_z;;laurent_g;',
-  'olivier_z;;leo_g;',
-  'roxane_e;0;jean_t;1',
-  'roxane_e;0;joseph_c;5',
-  'roxane_e;0;leo_g;2',
-  'roxane_e;11;roxane_e;3',
-  'roxane_e;16;francois_h;0',
-  'roxane_e;17;mathieu_c;1',
-  'roxane_e;17;moulinette;3',
-  'roxane_e;18;sandra_n;1',
-  'roxane_e;19;howard_s;1',
-  'roxane_e;1;bertrand_y;0',
-  'roxane_e;20;trevor_r;4',
-  'roxane_e;3;david_a;4',
-  'roxane_e;3;nicolas_s;0',
-  'roxane_e;3;olivier_z;1',
-  'roxane_e;4;clark_k;2',
-  'roxane_e;4;dexter_m;5',
-  'roxane_e;4;lois_l;1',
-  'roxane_e;5;john_w;0',
-  'roxane_e;5;maelle_m;3',
-  'roxane_e;6;melissa_v;2',
-  'roxane_e;7;didier_f;5',
-  'roxane_e;7;marie_c;5',
-  'roxane_e;8;laurent_g;3',
-  'roxane_e;9;bruce_w;3',
-  'roxane_e;;adam_e;',
-  'roxane_e;;georges_b;',
-  'roxane_e;;hans_z;',
-  'roxane_e;;ludovic_k;',
-  'roxane_e;;marcel_j;',
-  'roxane_e;;michel_r;',
-  'roxane_e;;steve_j;',
-  'sandra_n;11;jean_t;3',
-  'sandra_n;12;john_w;1',
-  'sandra_n;12;sandra_n;4',
-  'sandra_n;14;michel_r;0',
-  'sandra_n;15;clark_k;2',
-  'sandra_n;15;howard_s;2',
-  'sandra_n;15;mathieu_c;0',
-  'sandra_n;15;nicolas_s;4',
-  'sandra_n;16;adam_e;0',
-  'sandra_n;16;georges_b;4',
-  'sandra_n;18;olivier_z;1',
-  'sandra_n;19;didier_f;4',
-  'sandra_n;20;leo_g;3',
-  'sandra_n;2;bruce_w;4',
-  'sandra_n;3;laurent_g;0',
-  'sandra_n;4;bertrand_y;2',
-  'sandra_n;5;marie_c;2',
-  'sandra_n;6;hans_z;3',
-  'sandra_n;6;ludovic_k;5',
-  'sandra_n;7;maelle_m;2',
-  'sandra_n;7;marcel_j;5',
-  'sandra_n;8;dexter_m;3',
-  'sandra_n;9;moulinette;3',
-  'sandra_n;;david_a;',
-  'sandra_n;;francois_h;',
-  'sandra_n;;joseph_c;',
-  'sandra_n;;lois_l;',
-  'sandra_n;;melissa_v;',
-  'sandra_n;;roxane_e;',
-  'sandra_n;;steve_j;',
-  'sandra_n;;trevor_r;',
-  'steve_j;10;dexter_m;2',
-  'steve_j;10;melissa_v;4',
-  'steve_j;12;nicolas_s;3',
-  'steve_j;13;lois_l;1',
-  'steve_j;14;ludovic_k;5',
-  'steve_j;15;georges_b;2',
-  'steve_j;15;maelle_m;3',
-  'steve_j;15;marie_c;1',
-  'steve_j;18;jean_t;5',
-  'steve_j;19;bruce_w;3',
-  'steve_j;1;moulinette;2',
-  'steve_j;20;john_w;2',
-  'steve_j;20;marcel_j;0',
-  'steve_j;20;steve_j;2',
-  'steve_j;3;adam_e;2',
-  'steve_j;3;bertrand_y;1',
-  'steve_j;6;francois_h;3',
-  'steve_j;6;joseph_c;1',
-  'steve_j;6;laurent_g;2',
-  'steve_j;7;didier_f;2',
-  'steve_j;7;michel_r;1',
-  'steve_j;7;roxane_e;4',
-  'steve_j;7;sandra_n;0',
-  'steve_j;;clark_k;',
-  'steve_j;;david_a;',
-  'steve_j;;hans_z;',
-  'steve_j;;howard_s;',
-  'steve_j;;leo_g;',
-  'steve_j;;mathieu_c;',
-  'steve_j;;olivier_z;',
-  'steve_j;;trevor_r;',
-  'trevor_r;0;georges_b;0',
-  'trevor_r;12;nicolas_s;0',
-  'trevor_r;13;jean_t;4',
-  'trevor_r;18;sandra_n;0',
-  'trevor_r;19;moulinette;5',
-  'trevor_r;1;maelle_m;5',
-  'trevor_r;2;marcel_j;0',
-  'trevor_r;2;olivier_z;4',
-  'trevor_r;4;bruce_w;0',
-  'trevor_r;4;david_a;0',
-  'trevor_r;4;howard_s;5',
-  'trevor_r;4;marie_c;5',
-  'trevor_r;4;michel_r;0',
-  'trevor_r;5;ludovic_k;2',
-  'trevor_r;6;bertrand_y;4',
-  'trevor_r;6;laurent_g;0',
-  'trevor_r;6;roxane_e;3',
-  'trevor_r;8;dexter_m;2',
-  'trevor_r;8;joseph_c;4',
-  'trevor_r;9;mathieu_c;0',
-  'trevor_r;;adam_e;',
-  'trevor_r;;clark_k;',
-  'trevor_r;;didier_f;',
-  'trevor_r;;francois_h;',
-  'trevor_r;;hans_z;',
-  'trevor_r;;john_w;',
-  'trevor_r;;leo_g;',
-  'trevor_r;;lois_l;',
-  'trevor_r;;melissa_v;',
-  'trevor_r;;steve_j;',
-  'trevor_r;;trevor_r;'
-]
+adam_e;0;roxane_e;5
+adam_e;12;howard_s;0
+adam_e;16;joseph_c;3
+adam_e;17;dexter_m;2
+adam_e;17;john_w;1
+adam_e;19;jean_t;3
+adam_e;19;marcel_j;0
+adam_e;1;francois_h;0
+adam_e;2;adam_e;5
+adam_e;2;laurent_g;4
+adam_e;4;clark_k;3
+adam_e;4;leo_g;2
+adam_e;6;hans_z;5
+adam_e;6;moulinette;0
+adam_e;8;melissa_v;4
+adam_e;9;bertrand_y;4
+adam_e;9;maelle_m;3
+adam_e;9;marie_c;0
+adam_e;9;olivier_z;2
+adam_e;;bruce_w;
+adam_e;;david_a;
+adam_e;;didier_f;
+adam_e;;georges_b;
+adam_e;;lois_l;
+adam_e;;ludovic_k;
+adam_e;;mathieu_c;
+adam_e;;michel_r;
+adam_e;;nicolas_s;
+adam_e;;sandra_n;
+adam_e;;steve_j;
+adam_e;;trevor_r;
+bertrand_y;11;mathieu_c;0
+bertrand_y;12;olivier_z;4
+bertrand_y;12;roxane_e;1
+bertrand_y;12;steve_j;2
+bertrand_y;14;adam_e;1
+bertrand_y;15;michel_r;1
+bertrand_y;16;maelle_m;1
+bertrand_y;17;georges_b;2
+bertrand_y;1;howard_s;4
+bertrand_y;2;bruce_w;0
+bertrand_y;2;jean_t;1
+bertrand_y;2;marcel_j;2
+bertrand_y;2;trevor_r;4
+bertrand_y;3;sandra_n;4
+bertrand_y;4;clark_k;3
+bertrand_y;5;leo_g;0
+bertrand_y;6;hans_z;1
+bertrand_y;6;john_w;1
+bertrand_y;9;david_a;5
+bertrand_y;9;moulinette;4
+bertrand_y;;bertrand_y;
+bertrand_y;;dexter_m;
+bertrand_y;;didier_f;
+bertrand_y;;francois_h;
+bertrand_y;;joseph_c;
+bertrand_y;;laurent_g;
+bertrand_y;;lois_l;
+bertrand_y;;ludovic_k;
+bertrand_y;;marie_c;
+bertrand_y;;melissa_v;
+bertrand_y;;nicolas_s;
+bruce_w;0;bruce_w;0
+bruce_w;0;jean_t;1
+bruce_w;10;lois_l;5
+bruce_w;11;hans_z;4
+bruce_w;13;clark_k;5
+bruce_w;15;joseph_c;1
+bruce_w;16;adam_e;5
+bruce_w;16;leo_g;4
+bruce_w;18;roxane_e;5
+bruce_w;18;steve_j;3
+bruce_w;19;mathieu_c;4
+bruce_w;19;moulinette;2
+bruce_w;1;trevor_r;0
+bruce_w;20;michel_r;5
+bruce_w;2;didier_f;5
+bruce_w;2;howard_s;4
+bruce_w;3;melissa_v;2
+bruce_w;4;olivier_z;0
+bruce_w;6;john_w;4
+bruce_w;6;ludovic_k;3
+bruce_w;6;marcel_j;5
+bruce_w;7;laurent_g;2
+bruce_w;7;maelle_m;3
+bruce_w;8;bertrand_y;5
+bruce_w;;david_a;
+bruce_w;;dexter_m;
+bruce_w;;francois_h;
+bruce_w;;georges_b;
+bruce_w;;marie_c;
+bruce_w;;nicolas_s;
+bruce_w;;sandra_n;
+clark_k;0;sandra_n;4
+clark_k;10;francois_h;5
+clark_k;10;moulinette;0
+clark_k;11;dexter_m;2
+clark_k;12;lois_l;2
+clark_k;12;michel_r;2
+clark_k;13;howard_s;4
+clark_k;13;ludovic_k;4
+clark_k;14;mathieu_c;4
+clark_k;17;david_a;3
+clark_k;17;jean_t;1
+clark_k;17;joseph_c;0
+clark_k;18;georges_b;4
+clark_k;18;olivier_z;1
+clark_k;18;trevor_r;4
+clark_k;19;bruce_w;2
+clark_k;1;adam_e;5
+clark_k;20;laurent_g;0
+clark_k;20;nicolas_s;0
+clark_k;2;didier_f;4
+clark_k;2;hans_z;4
+clark_k;2;leo_g;4
+clark_k;2;roxane_e;1
+clark_k;3;clark_k;1
+clark_k;5;maelle_m;5
+clark_k;5;marie_c;5
+clark_k;6;melissa_v;5
+clark_k;7;john_w;4
+clark_k;9;marcel_j;4
+clark_k;;bertrand_y;
+clark_k;;steve_j;
+david_a;0;david_a;5
+david_a;0;john_w;3
+david_a;0;melissa_v;2
+david_a;10;adam_e;2
+david_a;10;clark_k;1
+david_a;10;maelle_m;5
+david_a;12;jean_t;2
+david_a;13;mathieu_c;1
+david_a;15;leo_g;2
+david_a;16;dexter_m;2
+david_a;16;moulinette;5
+david_a;18;trevor_r;2
+david_a;19;sandra_n;5
+david_a;1;bertrand_y;0
+david_a;20;hans_z;3
+david_a;2;olivier_z;0
+david_a;3;bruce_w;4
+david_a;5;michel_r;5
+david_a;6;marie_c;5
+david_a;7;laurent_g;5
+david_a;8;didier_f;1
+david_a;8;ludovic_k;0
+david_a;8;marcel_j;1
+david_a;8;roxane_e;1
+david_a;9;howard_s;2
+david_a;9;joseph_c;2
+david_a;;francois_h;
+david_a;;georges_b;
+david_a;;lois_l;
+david_a;;nicolas_s;
+david_a;;steve_j;
+dexter_m;0;steve_j;5
+dexter_m;10;howard_s;1
+dexter_m;10;roxane_e;5
+dexter_m;12;marie_c;4
+dexter_m;13;bruce_w;3
+dexter_m;15;melissa_v;3
+dexter_m;17;didier_f;5
+dexter_m;17;jean_t;5
+dexter_m;18;francois_h;3
+dexter_m;18;laurent_g;0
+dexter_m;2;nicolas_s;4
+dexter_m;3;bertrand_y;1
+dexter_m;3;lois_l;5
+dexter_m;4;joseph_c;0
+dexter_m;4;maelle_m;0
+dexter_m;4;trevor_r;5
+dexter_m;6;olivier_z;1
+dexter_m;7;hans_z;0
+dexter_m;7;leo_g;0
+dexter_m;7;moulinette;5
+dexter_m;8;marcel_j;3
+dexter_m;;adam_e;
+dexter_m;;clark_k;
+dexter_m;;david_a;
+dexter_m;;dexter_m;
+dexter_m;;georges_b;
+dexter_m;;john_w;
+dexter_m;;ludovic_k;
+dexter_m;;mathieu_c;
+dexter_m;;michel_r;
+dexter_m;;sandra_n;
+didier_f;10;clark_k;4
+didier_f;10;mathieu_c;0
+didier_f;12;moulinette;0
+didier_f;16;dexter_m;1
+didier_f;18;hans_z;5
+didier_f;18;jean_t;5
+didier_f;18;olivier_z;0
+didier_f;19;didier_f;1
+didier_f;19;joseph_c;0
+didier_f;1;roxane_e;0
+didier_f;20;ludovic_k;1
+didier_f;2;leo_g;4
+didier_f;3;adam_e;4
+didier_f;6;lois_l;2
+didier_f;6;marie_c;3
+didier_f;7;francois_h;5
+didier_f;8;nicolas_s;3
+didier_f;;bertrand_y;
+didier_f;;bruce_w;
+didier_f;;david_a;
+didier_f;;georges_b;
+didier_f;;howard_s;
+didier_f;;john_w;
+didier_f;;laurent_g;
+didier_f;;maelle_m;
+didier_f;;marcel_j;
+didier_f;;melissa_v;
+didier_f;;michel_r;
+didier_f;;sandra_n;
+didier_f;;steve_j;
+didier_f;;trevor_r;
+francois_h;0;howard_s;0
+francois_h;12;georges_b;0
+francois_h;12;michel_r;4
+francois_h;13;didier_f;1
+francois_h;13;joseph_c;1
+francois_h;13;mathieu_c;2
+francois_h;13;moulinette;4
+francois_h;14;clark_k;5
+francois_h;15;laurent_g;3
+francois_h;16;bertrand_y;1
+francois_h;17;nicolas_s;2
+francois_h;17;steve_j;3
+francois_h;19;hans_z;1
+francois_h;19;john_w;1
+francois_h;20;leo_g;0
+francois_h;20;trevor_r;0
+francois_h;2;marcel_j;0
+francois_h;5;bruce_w;5
+francois_h;5;david_a;4
+francois_h;9;francois_h;2
+francois_h;;adam_e;
+francois_h;;dexter_m;
+francois_h;;jean_t;
+francois_h;;lois_l;
+francois_h;;ludovic_k;
+francois_h;;maelle_m;
+francois_h;;marie_c;
+francois_h;;melissa_v;
+francois_h;;olivier_z;
+francois_h;;roxane_e;
+francois_h;;sandra_n;
+georges_b;0;john_w;3
+georges_b;0;laurent_g;4
+georges_b;11;bruce_w;5
+georges_b;11;hans_z;1
+georges_b;12;leo_g;3
+georges_b;12;sandra_n;2
+georges_b;13;dexter_m;5
+georges_b;13;marie_c;2
+georges_b;16;joseph_c;0
+georges_b;16;mathieu_c;4
+georges_b;16;steve_j;4
+georges_b;17;marcel_j;5
+georges_b;19;moulinette;4
+georges_b;1;maelle_m;0
+georges_b;5;trevor_r;2
+georges_b;7;ludovic_k;0
+georges_b;8;david_a;4
+georges_b;8;lois_l;0
+georges_b;9;adam_e;0
+georges_b;9;bertrand_y;5
+georges_b;9;clark_k;5
+georges_b;;didier_f;
+georges_b;;francois_h;
+georges_b;;georges_b;
+georges_b;;howard_s;
+georges_b;;jean_t;
+georges_b;;melissa_v;
+georges_b;;michel_r;
+georges_b;;nicolas_s;
+georges_b;;olivier_z;
+georges_b;;roxane_e;
+hans_z;0;roxane_e;3
+hans_z;13;mathieu_c;4
+hans_z;14;francois_h;3
+hans_z;15;hans_z;0
+hans_z;16;marie_c;5
+hans_z;17;nicolas_s;3
+hans_z;19;bertrand_y;3
+hans_z;19;clark_k;1
+hans_z;1;lois_l;2
+hans_z;20;bruce_w;3
+hans_z;20;georges_b;2
+hans_z;20;michel_r;1
+hans_z;3;moulinette;4
+hans_z;3;steve_j;5
+hans_z;7;marcel_j;4
+hans_z;7;olivier_z;5
+hans_z;8;david_a;3
+hans_z;;adam_e;
+hans_z;;dexter_m;
+hans_z;;didier_f;
+hans_z;;howard_s;
+hans_z;;jean_t;
+hans_z;;john_w;
+hans_z;;joseph_c;
+hans_z;;laurent_g;
+hans_z;;leo_g;
+hans_z;;ludovic_k;
+hans_z;;maelle_m;
+hans_z;;melissa_v;
+hans_z;;sandra_n;
+hans_z;;trevor_r;
+howard_s;0;david_a;0
+howard_s;10;melissa_v;4
+howard_s;11;clark_k;4
+howard_s;12;marie_c;0
+howard_s;14;lois_l;4
+howard_s;16;michel_r;2
+howard_s;17;didier_f;0
+howard_s;17;hans_z;1
+howard_s;19;olivier_z;3
+howard_s;1;steve_j;4
+howard_s;3;francois_h;1
+howard_s;3;howard_s;3
+howard_s;4;bruce_w;4
+howard_s;4;nicolas_s;1
+howard_s;6;bertrand_y;3
+howard_s;6;jean_t;2
+howard_s;7;john_w;3
+howard_s;7;sandra_n;1
+howard_s;8;ludovic_k;0
+howard_s;9;moulinette;0
+howard_s;;adam_e;
+howard_s;;dexter_m;
+howard_s;;georges_b;
+howard_s;;joseph_c;
+howard_s;;laurent_g;
+howard_s;;leo_g;
+howard_s;;maelle_m;
+howard_s;;marcel_j;
+howard_s;;mathieu_c;
+howard_s;;roxane_e;
+howard_s;;trevor_r;
+jean_t;0;bruce_w;3
+jean_t;0;nicolas_s;4
+jean_t;10;moulinette;1
+jean_t;10;olivier_z;2
+jean_t;11;steve_j;2
+jean_t;13;joseph_c;5
+jean_t;16;dexter_m;1
+jean_t;16;marie_c;5
+jean_t;17;clark_k;4
+jean_t;17;georges_b;0
+jean_t;1;leo_g;4
+jean_t;2;francois_h;3
+jean_t;2;ludovic_k;2
+jean_t;3;lois_l;1
+jean_t;4;hans_z;4
+jean_t;6;marcel_j;5
+jean_t;7;howard_s;4
+jean_t;8;roxane_e;2
+jean_t;8;trevor_r;4
+jean_t;;adam_e;
+jean_t;;bertrand_y;
+jean_t;;david_a;
+jean_t;;didier_f;
+jean_t;;jean_t;
+jean_t;;john_w;
+jean_t;;laurent_g;
+jean_t;;maelle_m;
+jean_t;;mathieu_c;
+jean_t;;melissa_v;
+jean_t;;michel_r;
+jean_t;;sandra_n;
+john_w;10;roxane_e;3
+john_w;10;sandra_n;1
+john_w;11;david_a;4
+john_w;13;joseph_c;5
+john_w;13;moulinette;4
+john_w;15;ludovic_k;0
+john_w;15;steve_j;4
+john_w;15;trevor_r;4
+john_w;16;hans_z;0
+john_w;16;olivier_z;0
+john_w;19;bertrand_y;2
+john_w;1;leo_g;2
+john_w;20;bruce_w;5
+john_w;3;didier_f;2
+john_w;4;marie_c;1
+john_w;6;melissa_v;4
+john_w;9;adam_e;2
+john_w;9;clark_k;0
+john_w;;dexter_m;
+john_w;;francois_h;
+john_w;;georges_b;
+john_w;;howard_s;
+john_w;;jean_t;
+john_w;;john_w;
+john_w;;laurent_g;
+john_w;;lois_l;
+john_w;;maelle_m;
+john_w;;marcel_j;
+john_w;;mathieu_c;
+john_w;;michel_r;
+john_w;;nicolas_s;
+joseph_c;10;howard_s;2
+joseph_c;11;mathieu_c;2
+joseph_c;12;ludovic_k;5
+joseph_c;12;moulinette;3
+joseph_c;17;michel_r;3
+joseph_c;18;joseph_c;3
+joseph_c;20;clark_k;0
+joseph_c;2;hans_z;5
+joseph_c;2;laurent_g;4
+joseph_c;3;olivier_z;0
+joseph_c;4;roxane_e;5
+joseph_c;5;trevor_r;2
+joseph_c;6;marie_c;4
+joseph_c;7;nicolas_s;4
+joseph_c;8;john_w;1
+joseph_c;9;leo_g;4
+joseph_c;9;maelle_m;5
+joseph_c;;adam_e;
+joseph_c;;bertrand_y;
+joseph_c;;bruce_w;
+joseph_c;;david_a;
+joseph_c;;dexter_m;
+joseph_c;;didier_f;
+joseph_c;;francois_h;
+joseph_c;;georges_b;
+joseph_c;;jean_t;
+joseph_c;;lois_l;
+joseph_c;;marcel_j;
+joseph_c;;melissa_v;
+joseph_c;;sandra_n;
+joseph_c;;steve_j;
+laurent_g;0;clark_k;3
+laurent_g;12;dexter_m;5
+laurent_g;13;john_w;1
+laurent_g;13;melissa_v;0
+laurent_g;14;georges_b;1
+laurent_g;14;hans_z;0
+laurent_g;14;sandra_n;4
+laurent_g;16;marie_c;1
+laurent_g;16;moulinette;4
+laurent_g;19;david_a;0
+laurent_g;20;leo_g;0
+laurent_g;20;ludovic_k;0
+laurent_g;20;trevor_r;5
+laurent_g;2;laurent_g;1
+laurent_g;5;bruce_w;3
+laurent_g;5;francois_h;5
+laurent_g;6;jean_t;2
+laurent_g;9;howard_s;4
+laurent_g;;adam_e;
+laurent_g;;bertrand_y;
+laurent_g;;didier_f;
+laurent_g;;joseph_c;
+laurent_g;;lois_l;
+laurent_g;;maelle_m;
+laurent_g;;marcel_j;
+laurent_g;;mathieu_c;
+laurent_g;;michel_r;
+laurent_g;;nicolas_s;
+laurent_g;;olivier_z;
+laurent_g;;roxane_e;
+laurent_g;;steve_j;
+leo_g;0;john_w;2
+leo_g;0;ludovic_k;4
+leo_g;10;francois_h;5
+leo_g;10;mathieu_c;1
+leo_g;10;michel_r;3
+leo_g;13;laurent_g;2
+leo_g;15;adam_e;5
+leo_g;15;marie_c;4
+leo_g;16;georges_b;1
+leo_g;16;olivier_z;5
+leo_g;16;sandra_n;5
+leo_g;18;david_a;4
+leo_g;18;joseph_c;1
+leo_g;1;bruce_w;4
+leo_g;20;clark_k;5
+leo_g;20;roxane_e;4
+leo_g;2;didier_f;2
+leo_g;2;hans_z;1
+leo_g;6;marcel_j;5
+leo_g;6;moulinette;3
+leo_g;7;melissa_v;0
+leo_g;7;nicolas_s;5
+leo_g;7;steve_j;5
+leo_g;8;jean_t;5
+leo_g;9;maelle_m;0
+leo_g;;bertrand_y;
+leo_g;;dexter_m;
+leo_g;;howard_s;
+leo_g;;leo_g;
+leo_g;;lois_l;
+leo_g;;trevor_r;
+lois_l;0;trevor_r;5
+lois_l;12;bertrand_y;5
+lois_l;14;jean_t;0
+lois_l;15;adam_e;1
+lois_l;15;maelle_m;5
+lois_l;15;mathieu_c;2
+lois_l;16;steve_j;4
+lois_l;17;clark_k;0
+lois_l;17;john_w;2
+lois_l;17;marcel_j;0
+lois_l;17;roxane_e;3
+lois_l;19;didier_f;0
+lois_l;19;georges_b;0
+lois_l;1;leo_g;2
+lois_l;1;nicolas_s;5
+lois_l;20;bruce_w;1
+lois_l;20;francois_h;4
+lois_l;3;marie_c;4
+lois_l;5;michel_r;3
+lois_l;6;moulinette;2
+lois_l;;david_a;
+lois_l;;dexter_m;
+lois_l;;hans_z;
+lois_l;;howard_s;
+lois_l;;joseph_c;
+lois_l;;laurent_g;
+lois_l;;lois_l;
+lois_l;;ludovic_k;
+lois_l;;melissa_v;
+lois_l;;olivier_z;
+lois_l;;sandra_n;
+ludovic_k;10;maelle_m;0
+ludovic_k;11;melissa_v;3
+ludovic_k;11;trevor_r;5
+ludovic_k;12;jean_t;3
+ludovic_k;13;bertrand_y;3
+ludovic_k;13;marie_c;1
+ludovic_k;15;moulinette;0
+ludovic_k;1;adam_e;3
+ludovic_k;2;laurent_g;0
+ludovic_k;3;hans_z;4
+ludovic_k;4;joseph_c;4
+ludovic_k;4;ludovic_k;5
+ludovic_k;4;michel_r;5
+ludovic_k;5;dexter_m;1
+ludovic_k;6;marcel_j;2
+ludovic_k;7;sandra_n;1
+ludovic_k;8;clark_k;4
+ludovic_k;8;david_a;3
+ludovic_k;8;francois_h;3
+ludovic_k;8;mathieu_c;3
+ludovic_k;;bruce_w;
+ludovic_k;;didier_f;
+ludovic_k;;georges_b;
+ludovic_k;;howard_s;
+ludovic_k;;john_w;
+ludovic_k;;leo_g;
+ludovic_k;;lois_l;
+ludovic_k;;nicolas_s;
+ludovic_k;;olivier_z;
+ludovic_k;;roxane_e;
+ludovic_k;;steve_j;
+maelle_m;0;dexter_m;2
+maelle_m;0;marie_c;1
+maelle_m;12;leo_g;3
+maelle_m;13;maelle_m;5
+maelle_m;14;john_w;1
+maelle_m;15;georges_b;0
+maelle_m;17;bertrand_y;5
+maelle_m;18;moulinette;1
+maelle_m;19;melissa_v;1
+maelle_m;1;clark_k;4
+maelle_m;1;roxane_e;5
+maelle_m;3;francois_h;4
+maelle_m;4;trevor_r;1
+maelle_m;5;marcel_j;4
+maelle_m;5;mathieu_c;2
+maelle_m;6;nicolas_s;2
+maelle_m;7;adam_e;4
+maelle_m;7;michel_r;1
+maelle_m;8;lois_l;0
+maelle_m;9;joseph_c;5
+maelle_m;;bruce_w;
+maelle_m;;david_a;
+maelle_m;;didier_f;
+maelle_m;;hans_z;
+maelle_m;;howard_s;
+maelle_m;;jean_t;
+maelle_m;;laurent_g;
+maelle_m;;ludovic_k;
+maelle_m;;olivier_z;
+maelle_m;;sandra_n;
+maelle_m;;steve_j;
+marcel_j;0;roxane_e;0
+marcel_j;10;trevor_r;5
+marcel_j;11;laurent_g;4
+marcel_j;11;michel_r;3
+marcel_j;13;didier_f;4
+marcel_j;14;joseph_c;0
+marcel_j;15;lois_l;5
+marcel_j;18;adam_e;0
+marcel_j;18;ludovic_k;5
+marcel_j;18;marie_c;0
+marcel_j;19;maelle_m;1
+marcel_j;20;francois_h;2
+marcel_j;20;john_w;0
+marcel_j;3;bruce_w;1
+marcel_j;3;dexter_m;1
+marcel_j;4;marcel_j;5
+marcel_j;5;bertrand_y;3
+marcel_j;5;leo_g;0
+marcel_j;5;steve_j;0
+marcel_j;7;moulinette;0
+marcel_j;8;hans_z;5
+marcel_j;9;clark_k;2
+marcel_j;9;nicolas_s;0
+marcel_j;;david_a;
+marcel_j;;georges_b;
+marcel_j;;howard_s;
+marcel_j;;jean_t;
+marcel_j;;mathieu_c;
+marcel_j;;melissa_v;
+marcel_j;;olivier_z;
+marcel_j;;sandra_n;
+marie_c;11;didier_f;2
+marie_c;13;bruce_w;4
+marie_c;14;francois_h;3
+marie_c;14;maelle_m;5
+marie_c;14;moulinette;1
+marie_c;15;david_a;1
+marie_c;18;marcel_j;0
+marie_c;18;melissa_v;5
+marie_c;19;bertrand_y;4
+marie_c;19;leo_g;3
+marie_c;1;steve_j;5
+marie_c;2;jean_t;3
+marie_c;2;mathieu_c;4
+marie_c;2;sandra_n;5
+marie_c;2;trevor_r;3
+marie_c;3;clark_k;4
+marie_c;5;nicolas_s;1
+marie_c;6;adam_e;4
+marie_c;8;georges_b;4
+marie_c;8;hans_z;3
+marie_c;8;howard_s;5
+marie_c;8;joseph_c;5
+marie_c;;dexter_m;
+marie_c;;john_w;
+marie_c;;laurent_g;
+marie_c;;lois_l;
+marie_c;;ludovic_k;
+marie_c;;marie_c;
+marie_c;;michel_r;
+marie_c;;olivier_z;
+marie_c;;roxane_e;
+mathieu_c;0;bruce_w;1
+mathieu_c;0;olivier_z;0
+mathieu_c;10;adam_e;0
+mathieu_c;10;francois_h;4
+mathieu_c;10;sandra_n;0
+mathieu_c;11;ludovic_k;1
+mathieu_c;12;hans_z;4
+mathieu_c;14;michel_r;0
+mathieu_c;14;roxane_e;1
+mathieu_c;15;bertrand_y;2
+mathieu_c;15;clark_k;4
+mathieu_c;15;maelle_m;0
+mathieu_c;15;marie_c;0
+mathieu_c;16;moulinette;1
+mathieu_c;18;nicolas_s;0
+mathieu_c;19;david_a;3
+mathieu_c;19;mathieu_c;1
+mathieu_c;1;joseph_c;1
+mathieu_c;1;melissa_v;3
+mathieu_c;2;laurent_g;2
+mathieu_c;6;howard_s;5
+mathieu_c;8;john_w;3
+mathieu_c;8;trevor_r;4
+mathieu_c;9;steve_j;3
+mathieu_c;;dexter_m;
+mathieu_c;;didier_f;
+mathieu_c;;georges_b;
+mathieu_c;;jean_t;
+mathieu_c;;leo_g;
+mathieu_c;;lois_l;
+mathieu_c;;marcel_j;
+melissa_v;10;clark_k;5
+melissa_v;10;olivier_z;3
+melissa_v;11;marcel_j;5
+melissa_v;12;mathieu_c;1
+melissa_v;13;francois_h;2
+melissa_v;13;hans_z;1
+melissa_v;15;steve_j;3
+melissa_v;16;bruce_w;3
+melissa_v;17;georges_b;3
+melissa_v;19;marie_c;3
+melissa_v;1;melissa_v;2
+melissa_v;20;bertrand_y;1
+melissa_v;3;maelle_m;3
+melissa_v;3;moulinette;0
+melissa_v;6;joseph_c;4
+melissa_v;6;ludovic_k;3
+melissa_v;6;sandra_n;4
+melissa_v;6;trevor_r;5
+melissa_v;7;howard_s;2
+melissa_v;9;lois_l;1
+melissa_v;;adam_e;
+melissa_v;;david_a;
+melissa_v;;dexter_m;
+melissa_v;;didier_f;
+melissa_v;;jean_t;
+melissa_v;;john_w;
+melissa_v;;laurent_g;
+melissa_v;;leo_g;
+melissa_v;;michel_r;
+melissa_v;;nicolas_s;
+melissa_v;;roxane_e;
+michel_r;13;didier_f;2
+michel_r;13;hans_z;5
+michel_r;13;sandra_n;3
+michel_r;15;steve_j;2
+michel_r;16;jean_t;4
+michel_r;18;francois_h;5
+michel_r;18;marcel_j;3
+michel_r;19;dexter_m;5
+michel_r;20;maelle_m;4
+michel_r;20;olivier_z;3
+michel_r;3;mathieu_c;5
+michel_r;5;georges_b;0
+michel_r;5;moulinette;2
+michel_r;9;michel_r;5
+michel_r;;adam_e;
+michel_r;;bertrand_y;
+michel_r;;bruce_w;
+michel_r;;clark_k;
+michel_r;;david_a;
+michel_r;;howard_s;
+michel_r;;john_w;
+michel_r;;joseph_c;
+michel_r;;laurent_g;
+michel_r;;leo_g;
+michel_r;;lois_l;
+michel_r;;ludovic_k;
+michel_r;;marie_c;
+michel_r;;melissa_v;
+michel_r;;nicolas_s;
+michel_r;;roxane_e;
+michel_r;;trevor_r;
+nicolas_s;0;adam_e;5
+nicolas_s;0;georges_b;0
+nicolas_s;10;didier_f;5
+nicolas_s;11;hans_z;4
+nicolas_s;11;joseph_c;0
+nicolas_s;13;francois_h;1
+nicolas_s;14;michel_r;2
+nicolas_s;16;dexter_m;3
+nicolas_s;16;nicolas_s;5
+nicolas_s;18;moulinette;0
+nicolas_s;1;melissa_v;4
+nicolas_s;1;sandra_n;1
+nicolas_s;2;steve_j;3
+nicolas_s;2;trevor_r;1
+nicolas_s;3;bertrand_y;3
+nicolas_s;6;clark_k;0
+nicolas_s;6;john_w;5
+nicolas_s;7;leo_g;4
+nicolas_s;8;bruce_w;1
+nicolas_s;8;lois_l;0
+nicolas_s;8;maelle_m;0
+nicolas_s;9;ludovic_k;5
+nicolas_s;9;mathieu_c;2
+nicolas_s;;david_a;
+nicolas_s;;howard_s;
+nicolas_s;;jean_t;
+nicolas_s;;laurent_g;
+nicolas_s;;marcel_j;
+nicolas_s;;marie_c;
+nicolas_s;;olivier_z;
+nicolas_s;;roxane_e;
+olivier_z;10;steve_j;1
+olivier_z;12;olivier_z;0
+olivier_z;13;clark_k;1
+olivier_z;13;john_w;2
+olivier_z;13;sandra_n;0
+olivier_z;15;marie_c;3
+olivier_z;15;melissa_v;0
+olivier_z;16;didier_f;1
+olivier_z;18;david_a;0
+olivier_z;18;mathieu_c;5
+olivier_z;19;howard_s;2
+olivier_z;19;joseph_c;3
+olivier_z;19;ludovic_k;1
+olivier_z;19;nicolas_s;5
+olivier_z;20;michel_r;2
+olivier_z;3;roxane_e;1
+olivier_z;5;marcel_j;1
+olivier_z;7;francois_h;3
+olivier_z;8;bruce_w;0
+olivier_z;8;georges_b;0
+olivier_z;8;jean_t;2
+olivier_z;8;lois_l;1
+olivier_z;8;trevor_r;2
+olivier_z;9;maelle_m;5
+olivier_z;9;moulinette;0
+olivier_z;;adam_e;
+olivier_z;;bertrand_y;
+olivier_z;;dexter_m;
+olivier_z;;hans_z;
+olivier_z;;laurent_g;
+olivier_z;;leo_g;
+roxane_e;0;jean_t;1
+roxane_e;0;joseph_c;5
+roxane_e;0;leo_g;2
+roxane_e;11;roxane_e;3
+roxane_e;16;francois_h;0
+roxane_e;17;mathieu_c;1
+roxane_e;17;moulinette;3
+roxane_e;18;sandra_n;1
+roxane_e;19;howard_s;1
+roxane_e;1;bertrand_y;0
+roxane_e;20;trevor_r;4
+roxane_e;3;david_a;4
+roxane_e;3;nicolas_s;0
+roxane_e;3;olivier_z;1
+roxane_e;4;clark_k;2
+roxane_e;4;dexter_m;5
+roxane_e;4;lois_l;1
+roxane_e;5;john_w;0
+roxane_e;5;maelle_m;3
+roxane_e;6;melissa_v;2
+roxane_e;7;didier_f;5
+roxane_e;7;marie_c;5
+roxane_e;8;laurent_g;3
+roxane_e;9;bruce_w;3
+roxane_e;;adam_e;
+roxane_e;;georges_b;
+roxane_e;;hans_z;
+roxane_e;;ludovic_k;
+roxane_e;;marcel_j;
+roxane_e;;michel_r;
+roxane_e;;steve_j;
+sandra_n;11;jean_t;3
+sandra_n;12;john_w;1
+sandra_n;12;sandra_n;4
+sandra_n;14;michel_r;0
+sandra_n;15;clark_k;2
+sandra_n;15;howard_s;2
+sandra_n;15;mathieu_c;0
+sandra_n;15;nicolas_s;4
+sandra_n;16;adam_e;0
+sandra_n;16;georges_b;4
+sandra_n;18;olivier_z;1
+sandra_n;19;didier_f;4
+sandra_n;20;leo_g;3
+sandra_n;2;bruce_w;4
+sandra_n;3;laurent_g;0
+sandra_n;4;bertrand_y;2
+sandra_n;5;marie_c;2
+sandra_n;6;hans_z;3
+sandra_n;6;ludovic_k;5
+sandra_n;7;maelle_m;2
+sandra_n;7;marcel_j;5
+sandra_n;8;dexter_m;3
+sandra_n;9;moulinette;3
+sandra_n;;david_a;
+sandra_n;;francois_h;
+sandra_n;;joseph_c;
+sandra_n;;lois_l;
+sandra_n;;melissa_v;
+sandra_n;;roxane_e;
+sandra_n;;steve_j;
+sandra_n;;trevor_r;
+steve_j;10;dexter_m;2
+steve_j;10;melissa_v;4
+steve_j;12;nicolas_s;3
+steve_j;13;lois_l;1
+steve_j;14;ludovic_k;5
+steve_j;15;georges_b;2
+steve_j;15;maelle_m;3
+steve_j;15;marie_c;1
+steve_j;18;jean_t;5
+steve_j;19;bruce_w;3
+steve_j;1;moulinette;2
+steve_j;20;john_w;2
+steve_j;20;marcel_j;0
+steve_j;20;steve_j;2
+steve_j;3;adam_e;2
+steve_j;3;bertrand_y;1
+steve_j;6;francois_h;3
+steve_j;6;joseph_c;1
+steve_j;6;laurent_g;2
+steve_j;7;didier_f;2
+steve_j;7;michel_r;1
+steve_j;7;roxane_e;4
+steve_j;7;sandra_n;0
+steve_j;;clark_k;
+steve_j;;david_a;
+steve_j;;hans_z;
+steve_j;;howard_s;
+steve_j;;leo_g;
+steve_j;;mathieu_c;
+steve_j;;olivier_z;
+steve_j;;trevor_r;
+trevor_r;0;georges_b;0
+trevor_r;12;nicolas_s;0
+trevor_r;13;jean_t;4
+trevor_r;18;sandra_n;0
+trevor_r;19;moulinette;5
+trevor_r;1;maelle_m;5
+trevor_r;2;marcel_j;0
+trevor_r;2;olivier_z;4
+trevor_r;4;bruce_w;0
+trevor_r;4;david_a;0
+trevor_r;4;howard_s;5
+trevor_r;4;marie_c;5
+trevor_r;4;michel_r;0
+trevor_r;5;ludovic_k;2
+trevor_r;6;bertrand_y;4
+trevor_r;6;laurent_g;0
+trevor_r;6;roxane_e;3
+trevor_r;8;dexter_m;2
+trevor_r;8;joseph_c;4
+trevor_r;9;mathieu_c;0
+trevor_r;;adam_e;
+trevor_r;;clark_k;
+trevor_r;;didier_f;
+trevor_r;;francois_h;
+trevor_r;;hans_z;
+trevor_r;;john_w;
+trevor_r;;leo_g;
+trevor_r;;lois_l;
+trevor_r;;melissa_v;
+trevor_r;;steve_j;
+trevor_r;;trevor_r;
