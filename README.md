@@ -131,6 +131,7 @@ Day02 focuses a lot on Regex. The instructions on this day are in a crazy Myst s
 
 #### Ex03:
 - Recreating the who command. (The who utility displays a list of all users currently logged on, showing for each user the login name, tty name, the date and time of login, and hostname if not local.)
+- The instructions mention "utmp" -- this is actually login records. (man utmp for info)
 
 
 ## Day03
