@@ -101,6 +101,9 @@ When using the * operator you need to wrap it in quotes like `"*"` to avoid the 
 #### Ex12:
 I put the pairs into a JSON object so I could easily call on it.
 ![ex12](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex12.png?raw=true)
+#### Ex13:
+I store the info in objects and get the information out using [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+![ex13](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day01/ExplainationImages/Day01Ex13.png?raw=true)
 
 ## Day02
 [up ▲](#table-of-contents)
