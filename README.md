@@ -127,8 +127,10 @@ Day02 focuses a lot on Regex. The instructions on this day are in a crazy Myst s
 
 #### Ex02:
 - Turn the titles of links Uppercase, and things between <a></a> tags Uppercase.
-- You have to learn RegEx for this one.
 ![ex02](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Day02/ExplainationImages/Day02Ex02.png?raw=true)
+
+#### Ex03:
+- Recreating the who command. (The who utility displays a list of all users currently logged on, showing for each user the login name, tty name, the date and time of login, and hostname if not local.)
 
 
 ## Day03
