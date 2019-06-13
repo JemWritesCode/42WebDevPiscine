@@ -15,7 +15,7 @@ Projects are done in CSS, HTML, Javascript, Node.js. This is the PHP Piscine Mat
 
 ## Table of Contents
 
-[Day00](#day00) - All exercises complete. (125/25)
+[Day00](#day00) - All exercises complete. (125/125)
 
 [Day01](#day01) - All exercises complete. 
 
