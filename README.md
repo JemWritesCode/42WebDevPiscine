@@ -153,7 +153,7 @@ Express is used for the server framework. I chose it because it's part of the po
 
 [Rush00 PDF Instructions](https://github.com/Jemmeh/42WebDevPiscine/blob/master/Rush00/rush00.en.pdf)
 
-The [NodeJS / Express / MongoDB - Build a Shopping Cart tutorial series by Acedemind on ](https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp) was really helpful and was a good stepping stone to learning MERN. It's not exactly the same as the school project, but it gets you close enough. This project normally has a partner but I did this solo. I ended up moving my database over to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) so instead of trying to host your database on the school computers it can be in the cloud. Just set your connection string to the one you get from MongoDB Atlas instead of the one mentioned in the tutorial.
+The [NodeJS / Express / MongoDB - Build a Shopping Cart tutorial series by Acedemind on ](https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp) was really helpful and was a good stepping stone to learning MERN. It's not exactly the same as the school project, but it gets you close enough. That said the tutorial DOES NOT COVER REACT. This project normally has a partner but I did this solo. I ended up moving my database over to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) so instead of trying to host your database on the school computers it can be in the cloud. Just set your connection string to the one you get from MongoDB Atlas instead of the one mentioned in the tutorial.
 
 I used:
 - Express for my web server framework. Controls the router.
